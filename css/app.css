@@ -1,0 +1,133 @@
+/* whole page defaults */
+body {
+  font-family: Campton-Light;
+  color: rgb(128, 130, 133);
+  background-color: white;
+  max-width: 100%;
+}
+
+/* menu item defaults */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+/* header area defaults */
+.top-bar,
+.top-bar .title-area,
+.top-bar .name {
+  min-height: 80px;
+  height: 40px;
+  background: #fff;
+}
+
+/* header area - shift logo down & right */
+.top-bar .title-area .name {
+  padding: 15px;
+  margin-left: 0px;
+}
+
+/* mobile MENU defaults */
+.top-bar .toggle-topbar a,
+.top-bar .toggle-topbar.menu-icon a {
+  font-family: 'NeusaMedium';
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding: 0px 15px 0px 0px;
+}
+
+/* mobile MENU - shift down */
+.top-bar .toggle-topbar{
+  top: 20px;
+}
+
+/* top nav defaults */
+.top-bar-section ul li,
+.top-bar-section ul li a,
+.top-bar-section li:not(.has-form) a:not(.button) {
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  background: none;
+}
+
+/* top nav - shift down */
+.top-bar-section ul {
+  margin-top: 20px;
+}
+
+/* top nav - highlight option when selected */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: rgb(245, 165, 151);
+  color: #000;
+}
+
+/* side nav defaults */
+.side-nav li a,
+.side-nav li a:not(.button),
+.side-nav li.active > a:first-child:not(.button) {
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+/* side nav - highlight option when selected */
+.side-nav li.active > a:first-child:not(.button) {
+  background-color: rgb(245, 165, 151);
+  color: #000;
+}
+
+/* footer area defaults */
+.footer-area {
+  min-height: 100px;
+  margin-top: 20px;
+}
+
+/*
+// ========================================================================
+// ELEMENT SIZING/POSITIONING
+// ========================================================================
+*/
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: auto !important;
+}
+
+.pull-left {
+  display: inline-block;
+  float: left;
+}
+
+.pull-right {
+  display: inline-block;
+  float: right;
+}
+
+.full-width {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: initial;
+}
+
+/*
+// ========================================================================
+// LOGO'S
+// ========================================================================
+*/
+
+img#logo {
+  width: 240px !important;
+}
+
+img.member-icon {
+  width: 80px !important;
+}
+
+img.social-icon {
+  width: 40px !important;
+}
