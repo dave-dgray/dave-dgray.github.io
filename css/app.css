@@ -1,6 +1,6 @@
 /* whole page defaults */
 body {
-  font-family: Lucida, grand, sans-serif;
+  font-family: Avenir, sans-serif;
   color: rgb(128, 130, 133);
   background-color: white;
   max-width: 100%;
@@ -15,26 +15,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* header area defaults */
 .top-bar,
-.top-bar .title-area,
-.top-bar .name {
-  height: 160px;
+.top-bar .title-area {
+  top: 20px;
+  height: 140px;
   background: #fff;
 }
 
 /* header area - logo size */
 img#logo {
-  height: 120px !important;
-}
-
-/* header area - logo positioning */
-.top-bar .title-area .name {
-  padding: 20px;
+  height: 100px !important;
 }
 
 /* mobile MENU defaults */
 .top-bar .toggle-topbar a,
 .top-bar .toggle-topbar.menu-icon a {
-  font-family: 'NeusaMedium';
   color: rgb(128, 130, 133);
   text-transform: uppercase;
   font-size: 1.4em;
@@ -85,7 +79,7 @@ img#logo {
 /* footer area defaults */
 .footer-area {
   min-height: 100px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 /*
@@ -100,23 +94,56 @@ img#logo {
 
 .overlay-top {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  color: black;
-  font-weight: bold;
+  top: 1%;
+  left: 2%;
+}
+
+.overlay-middle {
+  position: absolute;
+  top: 14%;
 }
 
 .overlay-bottom {
   position: absolute;
   bottom: 0%;
   right: 0%;
+}
+
+.what-we-do-style {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.under-construction-style {
+  text-align: center;
   color: white;
-  font-size: 10px;
+  background: rgba(112, 148, 77, 0.6);
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.services-title-style {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.services-list-style {
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.contact-style {
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
 }
 
 /*
 // ========================================================================
-// ELEMENT SIZING/POSITIONING
+// IMAGE SIZING/POSITIONING
 // ========================================================================
 */
 
