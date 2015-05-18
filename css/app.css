@@ -92,6 +92,11 @@ img#logo {
   position: relative;
 }
 
+.edge-to-edge {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .overlay-top {
   position: absolute;
   top: 1%;
