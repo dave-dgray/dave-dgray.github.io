@@ -21,11 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-/* header area - logo size */
-img#logo {
-  height: 100px !important;
-}
-
 /* mobile MENU defaults */
 .top-bar .toggle-topbar a,
 .top-bar .toggle-topbar.menu-icon a {
@@ -84,7 +79,7 @@ img#logo {
 
 /*
 // ========================================================================
-// Control classes for overlaying text on the background image
+// Control classes for positioning text and images
 // ========================================================================
 */
 
@@ -113,6 +108,12 @@ img#logo {
   bottom: 0%;
   right: 0%;
 }
+
+/*
+// ========================================================================
+// Control classes for text styles
+// ========================================================================
+*/
 
 .what-we-do-style {
   color: black;
@@ -146,6 +147,13 @@ img#logo {
   font-weight: normal;
 }
 
+.regulated-by-style {
+  position: absolute;
+  top: 10px;
+  left: 95px;
+  font-size: 13px;
+}
+
 /*
 // ========================================================================
 // IMAGE SIZING/POSITIONING
@@ -158,16 +166,6 @@ img {
   height: auto !important;
 }
 
-.pull-left {
-  display: inline-block;
-  float: left;
-}
-
-.pull-right {
-  display: inline-block;
-  float: right;
-}
-
 .full-width {
   width: 100%;
   margin-left: 0px;
@@ -175,16 +173,14 @@ img {
   max-width: initial;
 }
 
-/*
-// ========================================================================
-// Footer icon sizing
-// ========================================================================
-*/
+.logo-size {
+  width: 450px !important;
+}
 
-img.member-icon {
+.member-icon {
   width: 80px !important;
 }
 
-img.social-icon {
-  width: 40px !important;
+.social-icon {
+  width: 30px !important;
 }
