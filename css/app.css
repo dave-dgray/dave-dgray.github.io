@@ -1,7 +1,7 @@
 /* whole page defaults */
 body {
   font-family: Avenir, sans-serif;
-  color: rgb(128, 130, 133);
+  color: black;
   background-color: white;
   max-width: 100%;
 }
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*
 // ========================================================================
-// Control classes for positioning text and images
+// Positioning of text and images
 // ========================================================================
 */
 
@@ -96,54 +96,39 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 1%;
   left: 2%;
+  color: black;
 }
 
 .overlay-middle {
   position: absolute;
   top: 14%;
+  color: white;
 }
 
 .overlay-bottom {
   position: absolute;
   bottom: 0%;
   right: 0%;
+  color: white;
 }
 
 /*
 // ========================================================================
-// Control classes for text styles
+// Text style and size
 // ========================================================================
 */
 
-.what-we-do-style {
-  color: black;
-  font-size: 16px;
+.bold-style {
   font-weight: bold;
+}
+
+.normal-style {
+  font-weight: normal;
 }
 
 .under-construction-style {
   text-align: center;
-  color: white;
   background: rgba(112, 148, 77, 0.6);
-  font-size: 25px;
-  font-weight: normal;
-}
-
-.services-title-style {
-  color: white;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.services-list-style {
-  color: white;
-  font-size: 13px;
-  font-weight: normal;
-}
-
-.contact-style {
-  color: black;
-  font-size: 13px;
   font-weight: normal;
 }
 
@@ -151,7 +136,19 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 10px;
   left: 95px;
-  font-size: 13px;
+  font-weight: normal;
+}
+
+.text-small {
+  font-size: 15px;
+}
+
+.text-medium {
+  font-size: 20px;
+}
+
+.text-large {
+  font-size: 25px;
 }
 
 /*
