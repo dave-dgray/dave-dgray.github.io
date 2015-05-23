@@ -134,9 +134,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .regulated-by-style {
   position: absolute;
-  top: 10px;
+  top: 9px;
   left: 95px;
   font-weight: normal;
+  font-size: 12px;
 }
 
 .text-small {
