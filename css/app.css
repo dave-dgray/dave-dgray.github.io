@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-bar,
 .top-bar .title-area {
   top: 20px;
-  height: 140px;
+  height: 120px;
   background: #fff;
 }
 
@@ -94,14 +94,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .overlay-top {
   position: absolute;
-  top: 1%;
+  top: 0%;
   left: 2%;
   color: black;
 }
 
 .overlay-middle {
   position: absolute;
-  top: 14%;
+  top: 16%;
   color: white;
 }
 
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-large {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 /*
@@ -171,7 +171,11 @@ img {
   max-width: initial;
 }
 
-.logo-size {
+.logo-small {
+  width: 320px !important;
+}
+
+.logo-normal {
   width: 450px !important;
 }
 
