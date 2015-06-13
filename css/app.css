@@ -3,7 +3,7 @@ body {
   font-family: Avenir, sans-serif;
   color: black;
   background-color: white;
-  max-width: 100%;
+  max-width: auto;
 }
 
 /* menu item defaults */
@@ -77,14 +77,29 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
 }
 
+.columns {
+  position: relative;
+}
+
 /*
 // ========================================================================
-// Positioning of text and images
+// General colours and styles
 // ========================================================================
 */
 
-.columns {
-  position: relative;
+.color-biscuit {
+  color: white;
+  background-color: rgb(166, 160, 126);
+}
+
+.color-moss {
+  color: white;
+  background-color: rgb(116, 137, 81);
+}
+
+.color-grey {
+  color: white;
+  background-color: rgb(89, 89, 89);
 }
 
 .edge-to-edge {
@@ -92,44 +107,60 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 0px;
 }
 
+.bleed-left {
+  /* top right bottom left */
+  padding: 2% 1% 2% 0%;
+}
+
+.bleed-right {
+  /* top right bottom left */
+  padding: 2% 0% 2% 1%;
+}
+
 .overlay-top {
   position: absolute;
   top: 0%;
   left: 2%;
-  color: black;
 }
 
 .overlay-middle {
   position: absolute;
   top: 16%;
-  color: white;
 }
 
 .overlay-bottom {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  color: white;
+}
+
+.style-normal {
+  font-weight: normal;
+}
+
+.style-bold {
+  font-weight: bold;
+}
+
+.size-small {
+  font-size: 15px;
+}
+
+.size-medium {
+  font-size: 20px;
+}
+
+.size-large {
+  font-size: 23px;
 }
 
 /*
 // ========================================================================
-// Text style and size
+// Specific element styles
 // ========================================================================
 */
 
-.bold-style {
-  font-weight: bold;
-}
-
-.normal-style {
-  font-weight: normal;
-}
-
-.under-construction-style {
-  text-align: center;
-  background: rgba(112, 148, 77, 0.6);
-  font-weight: normal;
+.what-we-do  {
 }
 
 .regulated-by-style {
@@ -140,29 +171,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.text-small {
-  font-size: 15px;
-}
-
-.text-medium {
-  font-size: 20px;
-}
-
-.text-large {
-  font-size: 23px;
-}
-
 /*
 // ========================================================================
 // IMAGE SIZING/POSITIONING
 // ========================================================================
 */
-
-img {
-  max-width: 100%;
-  margin-bottom: 10px;
-  height: auto !important;
-}
 
 .full-width {
   width: 100%;
@@ -176,7 +189,7 @@ img {
 }
 
 .logo-normal {
-  width: 450px !important;
+  width: 400px !important;
 }
 
 .member-icon {
