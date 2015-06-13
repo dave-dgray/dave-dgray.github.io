@@ -1,11 +1,12 @@
-$(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('.what-we-do').css('height', windowHeight/2);
-  };
-  setHeight();
-  
-  $(window).resize(function() {
-    setHeight();
-  });
+function setHomeElementHeights() {
+  $('.what-we-do').height($('#home-image').height()/2);
+};
+
+$('#home-image').load(function() {
+  setHomeElementHeights();
 });
+
+$(window).resize(function() {
+  setHomeElementHeights();
+});
+
