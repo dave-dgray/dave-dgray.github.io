@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 /* footer area defaults */
 .footer-area {
   min-height: 100px;
-  margin-top: 0px;
+  margin-top: 1%;
 }
 
 .columns {
@@ -197,11 +197,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-small {
-  width: 320px !important;
+  width: 200px !important;
 }
 
 .logo-normal {
-  width: 400px !important;
+  width: 300px !important;
 }
 
 .member-icon {
