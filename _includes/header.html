@@ -7,21 +7,21 @@
     </div>
 
     <div class="show-for-medium-up">
-        <div class="small-8 columns">
+        <div class="small-4 columns">
             <a href="{{ site.baseurl }}/"><img src="/imgs/arch_logo.png" class="logo-normal"></a>
         </div>
-    </div>
 
-    <section class="top-bar-section">
-        <ul class="right">
+        <section class="top-bar-section">
+          <ul class="right">
             {% for page in site.pages %}
             {% if page.title %}
             <li>
-                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </li>
             {% endif %}
             {% endfor %}
-        </ul>
-    </section>
+          </ul>
+        </section>
+    </div>
 
 </nav>
