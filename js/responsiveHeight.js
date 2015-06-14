@@ -1,11 +1,14 @@
 function setHomeElementHeights() {
-  var splitHeight = $('#home-image').height()/2;
 
-  $('.what-we-do').height(splitHeight);
-  $('.what-we-do').css('line-height', splitHeight+'px');
+  var blockHeight = $('#home-image').height();
+  blockHeight = blockHeight - parseInt( $('.what-we-do').css('marginBottom') );
+  blockHeight = blockHeight/2;
 
-  $('.showcase-project').height(splitHeight);
-  $('.showcase-project').css('line-height', splitHeight+'px');
+  $('.what-we-do').height(blockHeight);
+  $('.what-we-do').css('line-height', blockHeight+'px');
+
+  $('.showcase-project').height(blockHeight);
+  $('.showcase-project').css('line-height', blockHeight+'px');
 
 };
 
