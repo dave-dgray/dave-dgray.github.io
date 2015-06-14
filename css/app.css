@@ -83,21 +83,29 @@ h1, h2, h3, h4, h5, h6 {
 // ========================================================================
 */
 
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
 .color-biscuit {
   background-color: rgb(166, 160, 126);
 }
 
-.color-white-on-moss {
+.color-white-on-light-green {
   color: white;
   background-color: rgb(116, 137, 81);
 }
 
-.color-white-on-grey {
+.color-white-on-dark-grey {
   color: white;
   background-color: rgb(89, 89, 89);
 }
 
-.color-white-on-putty {
+.color-white-on-light-grey {
   color: white;
   background-color: rgb(160, 151, 146);
 }
@@ -105,14 +113,6 @@ h1, h2, h3, h4, h5, h6 {
 .color-white-on-dark-green {
   color: white;
   background-color: rgb(96, 114, 72);
-}
-
-.color-black {
-  color: black;
-}
-
-.color-white {
-  color: white;
 }
 
 .edge-to-edge {
@@ -160,9 +160,6 @@ h1, h2, h3, h4, h5, h6 {
 .v-align-middle {
   display: inline-block;
   vertical-align:middle;
-  line-height: 18px;
-  /* top right bottom left */
-  padding: 5% 5% 5% 5%;
 }
 
 /*
@@ -208,7 +205,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   height: 150px;
   line-height: 150px;
-  vertical-align:middle;
 }
 
 .regulated-by-style {
