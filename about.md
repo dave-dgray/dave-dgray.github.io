@@ -1,11 +1,24 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="show-for-medium-up">
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+  <div class="small-5 columns home-border">
+    <h3 class="align-left-justified color-white">
+      ABOUT
+    </h3>
+    <p class="align-left-justified color-black">
+      Peter Hayes’ professional background is as a Chartered Building Surveyor. Peter has a wide spectrum of experience within the historic built environment and has worked for both the National Trust and in private practice.
+    </p>
+    <p class="align-left-justified color-black">
+      To compliment his practical experience Peter achieved a Distinction in his Masters Degree in Conservation of the Historic Environment and is currently working towards the RICS Building Conservation Accreditation.
+    </p>
+    <p class="align-left-justified color-black">
+      Peter is also an affiliate member of the Institute of Historic Building Conservation (IHBC), a member of the Buildings Limes Forum and the Society for the Protection of Ancient Buildings (SPAB).
+    </p>
+  </div>
+  
+</div>
