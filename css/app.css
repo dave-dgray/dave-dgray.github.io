@@ -173,6 +173,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2% 0% 2% 0%;
 }
 
+.about-border {
+  /* top right bottom left */
+  padding: 2% 2% 2% 2%;
+}
+
 .what-we-do  {
   margin: 0;
   border: 0;
