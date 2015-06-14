@@ -97,6 +97,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(89, 89, 89);
 }
 
+.color-white-on-putty {
+  color: white;
+  background-color: rgb(160, 151, 146);
+}
+
+.color-white-on-dark-green {
+  color: white;
+  background-color: rgb(96, 114, 72);
+}
+
 .color-black {
   color: black;
 }
@@ -152,14 +162,31 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align:middle;
   text-align: center;
   line-height: 18px;
+  /* top right bottom left */
   padding: 5% 5% 5% 5%;
 }
 
 .align-left-justified {
-  display: inline-block;
   text-align: justified;
   line-height: 18px;
+}
+
+.v-align-middle {
+  display: inline-block;
+  vertical-align:middle;
+  line-height: 18px;
+  /* top right bottom left */
   padding: 5% 5% 5% 5%;
+}
+
+.justify-left {
+  text-align: justified;
+  line-height: 18px;
+}
+
+.justify-center {
+  text-align: center;
+  line-height: 18px;
 }
 
 /*
@@ -170,24 +197,43 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-border {
   /* top right bottom left */
-  padding: 2% 0% 2% 0%;
+  padding: 20px 0 20px 0;
 }
 
 .about-border {
   /* top right bottom left */
-  padding: 2% 2% 2% 2%;
+  padding: 20px 20px 20px 20px;
+}
+
+.services-border {
+  /* top right bottom left */
+  padding: 20px 20px 20px 20px;
 }
 
 .what-we-do  {
   margin: 0;
   border: 0;
-  padding: 0% 0% 0% 0%;
+  padding: 0;
+  height: 150px;
+  line-height: 150px;
 }
 
 .showcase-project  {
   margin: 0;
   border: 0;
-  padding: 0% 0% 0% 0%;
+  padding: 0;
+  height: 150px;
+  line-height: 150px;
+}
+
+.service-block{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 150px;
+  line-height: 150px;
+  vertical-align:middle;
+  text-align: center;
 }
 
 .regulated-by-style {
