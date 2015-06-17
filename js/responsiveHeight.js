@@ -9,14 +9,24 @@ function setHomeElementHeights() {
 
   $('.showcase-project').height(blockHeight);
   $('.showcase-project').css('line-height', blockHeight+'px');
+};
 
+function setContactElementHeights() {
+  var blockHeight = $('#contact-image').height();
+  $('.contact-block').height(blockHeight);
+  $('.contact-block').css('line-height', blockHeight+'px');
 };
 
 $('#home-image').load(function() {
   setHomeElementHeights();
 });
 
+$('#contact-image').load(function() {
+  setContactElementHeights();
+});
+
 $(window).resize(function() {
   setHomeElementHeights();
+  setContactElementHeights();
 });
 
