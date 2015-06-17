@@ -85,34 +85,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .color-black {
   color: black;
+  opacity: 100%;
 }
 
 .color-white {
   color: white;
+  opacity: 100%;
 }
 
 .color-biscuit {
   background-color: rgb(166, 160, 126);
+  opacity: 100%;
 }
 
-.color-white-on-light-green {
-  color: white;
+.on-light-green {
   background-color: rgb(116, 137, 81);
+  opacity: 100%;
 }
 
-.color-white-on-dark-grey {
-  color: white;
+.on-dark-grey {
   background-color: rgb(89, 89, 89);
+  opacity: 100%;
 }
 
-.color-white-on-light-grey {
-  color: white;
+.on-light-grey {
   background-color: rgb(160, 151, 146);
+  opacity: 100%;
 }
 
-.color-white-on-dark-green {
-  color: white;
+.on-dark-green {
   background-color: rgb(96, 114, 72);
+  opacity: 100%;
+}
+
+.semi-transparent {
+  opacity: 70%;
 }
 
 .edge-to-edge {
@@ -123,18 +130,16 @@ h1, h2, h3, h4, h5, h6 {
 .overlay-top {
   position: absolute;
   top: 0%;
-  left: 2%;
 }
 
 .overlay-middle {
   position: absolute;
-  top: 16%;
+  top: 50%;
 }
 
 .overlay-bottom {
   position: absolute;
   bottom: 0%;
-  right: 0%;
 }
 
 .style-normal {
