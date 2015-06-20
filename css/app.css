@@ -167,16 +167,12 @@ h1, h2, h3, h4, h5, h6 {
 // ========================================================================
 */
 
-.home-border {
+.border-top-bottom {
   /* top right bottom left */
   padding: 20px 0 20px 0;
 }
 
-.about-border {
-  padding: 20px 20px 20px 20px;
-}
-
-.services-border {
+.border-all-sides {
   padding: 20px 20px 20px 20px;
 }
 
