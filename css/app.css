@@ -116,11 +116,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.7;
 }
 
-.edge-to-edge {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .overlay-top {
   position: absolute;
   top: 0%;
@@ -134,14 +129,6 @@ h1, h2, h3, h4, h5, h6 {
 .overlay-bottom {
   position: absolute;
   bottom: 0%;
-}
-
-.style-normal {
-  font-weight: normal;
-}
-
-.style-bold {
-  font-weight: bold;
 }
 
 .size-small {
@@ -161,11 +148,9 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align:middle;
 }
 
-/*
-// ========================================================================
-// Specific element styles
-// ========================================================================
-*/
+.border-none {
+  padding: 0;
+}
 
 .border-top-bottom {
   /* top right bottom left */
@@ -175,6 +160,12 @@ h1, h2, h3, h4, h5, h6 {
 .border-all-sides {
   padding: 20px 20px 20px 20px;
 }
+
+/*
+// ========================================================================
+// Specific element styles
+// ========================================================================
+*/
 
 .what-we-do  {
   margin: 0px 0px 10px 10px;
