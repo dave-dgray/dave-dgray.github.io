@@ -6,40 +6,13 @@ body {
   max-width: auto;
 }
 
-/* menu item defaults */
-h1, h2, h3, h4, h5, h6 {
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-}
-
 /* header area defaults */
-.top-bar,
-.top-bar .title-area {
+.top-bar {
   top: 20px;
   height: 120px;
-  background: #fff;
-}
-
-/* mobile MENU defaults */
-.top-bar .toggle-topbar a,
-.top-bar .toggle-topbar.menu-icon a {
-  color: rgb(128, 130, 133);
+  color: black;
+  background-color: white;
   text-transform: uppercase;
-  padding: 0px 15px 0px 0px;
-}
-
-/* mobile MENU - shift down */
-.top-bar .toggle-topbar{
-  top: 20px;
-}
-
-/* top nav defaults */
-.top-bar-section ul li,
-.top-bar-section ul li a,
-.top-bar-section li:not(.has-form) a:not(.button) {
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-  background: none;
 }
 
 /* top nav - shift down */
@@ -47,25 +20,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 }
 
+/* top nav - default color */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  color: black;
+  background-color: white;
+}
+
 /* top nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   font-weight: bold;
   color: black;
   background-color: white;
-}
-
-/* side nav defaults */
-.side-nav li a,
-.side-nav li a:not(.button),
-.side-nav li.active > a:first-child:not(.button) {
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-}
-
-/* side nav - highlight option when selected */
-.side-nav li.active > a:first-child:not(.button) {
-  background-color: rgb(245, 165, 151);
-  color: #000;
 }
 
 /* footer area defaults */
