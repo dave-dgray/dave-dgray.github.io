@@ -49,8 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* top nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: rgb(245, 165, 151);
-  color: #000;
+  font-weight: bold;
+  color: black;
+  background-color: white;
 }
 
 /* side nav defaults */
