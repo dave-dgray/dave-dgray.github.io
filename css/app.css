@@ -113,20 +113,6 @@ body {
   padding: 20px;
 }
 
-/*
-// ========================================================================
-// Specific element styles
-// ========================================================================
-*/
-
-.what-block {
-  /* top right bottom left */
-  margin: 0px 0px 10px 10px;
-  border: 0;
-  padding: 15px;
-  height: 150px;
-}
-
 .font-large {
   font-size: 1.6em;
   letter-spacing: 100;
@@ -145,18 +131,34 @@ body {
   line-height: 1em;
 }
 
+/*
+// ========================================================================
+// Specific element styles
+// ========================================================================
+*/
+
+.what-block {
+  /* top right bottom left */
+  margin: 0px 0px 10px 10px;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
 .showcase-block {
   /* top right bottom left */
   margin: 10px 0px 0px 10px;
   border: 0;
   padding: 15px;
   height: 150px;
+  line-height: 150px;
 }
 
 .service-block {
   margin: 0;
   border: 0;
-  padding: 0;
+  padding: 15px;
   height: 150px;
   line-height: 150px;
 }
