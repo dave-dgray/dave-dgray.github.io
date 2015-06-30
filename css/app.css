@@ -127,16 +127,22 @@ body {
   height: 150px;
 }
 
-.what-font1 {
+.font-large {
   font-size: 1.6em;
   letter-spacing: 100;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
-.what-font2 {
+.font-medium {
   font-size: 1.2em;
   letter-spacing: 60;
   line-height: 1.2em;
+}
+
+.font-small {
+  font-size: 1em;
+  letter-spacing: 60;
+  line-height: 1em;
 }
 
 .showcase-block {
@@ -145,12 +151,6 @@ body {
   border: 0;
   padding: 15px;
   height: 150px;
-}
-
-.showcase-font {
-  font-size: 1.3em;
-  letter-spacing: 100;
-  line-height: 1.2em;
 }
 
 .service-block {
