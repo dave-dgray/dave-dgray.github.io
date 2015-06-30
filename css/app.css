@@ -15,15 +15,17 @@ body {
   text-transform: uppercase;
 }
 
-/* top nav - shift down */
+/* top nav - positioning*/
 .top-bar-section ul {
   margin-top: 20px;
 }
 
-/* top nav - default color */
+/* top nav - default colors, font size & kerning */
 .top-bar-section li:not(.has-form) a:not(.button) {
   color: black;
   background-color: white;
+  font-size: 1.125em;
+  letter-spacing: 100;
 }
 
 /* top nav - highlight option when selected */
@@ -93,18 +95,6 @@ body {
   bottom: 0%;
 }
 
-.size-small {
-  font-size: 15px;
-}
-
-.size-medium {
-  font-size: 20px;
-}
-
-.size-large {
-  font-size: 23px;
-}
-
 .v-align-middle {
   display: inline-block;
   vertical-align:middle;
@@ -129,25 +119,41 @@ body {
 // ========================================================================
 */
 
-.what-we-do  {
+.what-block {
   /* top right bottom left */
   margin: 0px 0px 10px 10px;
   border: 0;
-  padding: 0;
+  padding: 15px;
   height: 150px;
-  line-height: 150px;
 }
 
-.showcase-project  {
+.what-font1 {
+  font-size: 1.6em;
+  letter-spacing: 100;
+  line-height: 1.5em;
+}
+
+.what-font2 {
+  font-size: 1.2em;
+  letter-spacing: 60;
+  line-height: 1.2em;
+}
+
+.showcase-block {
   /* top right bottom left */
   margin: 10px 0px 0px 10px;
   border: 0;
-  padding: 0;
+  padding: 15px;
   height: 150px;
-  line-height: 150px;
 }
 
-.service-block{
+.showcase-font {
+  font-size: 1.3em;
+  letter-spacing: 100;
+  line-height: 1.2em;
+}
+
+.service-block {
   margin: 0;
   border: 0;
   padding: 0;
@@ -155,7 +161,7 @@ body {
   line-height: 150px;
 }
 
-.contact-block{
+.contact-block {
   margin: 0;
   border: 0;
   padding: 20px;
