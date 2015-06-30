@@ -35,6 +35,10 @@ body {
   background-color: white;
 }
 
+#project-images a:hover img {
+    opacity: 0.6;
+}
+
 /* footer area defaults */
 .footer-area {
   min-height: 100px;
