@@ -35,10 +35,6 @@ body {
   background-color: white;
 }
 
-#project-images a:hover img {
-    opacity: 0.6;
-}
-
 /* footer area defaults */
 .footer-area {
   min-height: 100px;
@@ -47,7 +43,7 @@ body {
 
 /*
 // ========================================================================
-// General colours and styles
+// Generic element styles
 // ========================================================================
 */
 
@@ -159,14 +155,6 @@ body {
   line-height: 150px;
 }
 
-.service-block {
-  margin: 0;
-  border: 0;
-  padding: 15px;
-  height: 150px;
-  line-height: 150px;
-}
-
 .contact-block {
   margin: 0;
   border: 0;
@@ -210,4 +198,40 @@ body {
 
 .social-icon {
   width: 30px !important;
+}
+
+/*
+// ========================================================================
+// PROJECT PAGE GRID IMAGE HANDLING
+// ========================================================================
+*/
+
+/** Cannot make flexi-height images work with columns - this works! **/
+#project-page-images {
+   line-height: 0;
+   -webkit-column-count: 3;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    3;
+   -moz-column-gap:      0px;
+   column-count:         3;
+   column-gap:           0px;
+}
+
+@media (max-width: 200px) {
+  #project-page-images {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+#project-page-images img {
+  padding: 5px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* highlight currently selected image */
+#project-page-images a:hover img {
+    opacity: 0.6;
 }
