@@ -1,4 +1,4 @@
-function setHomeElementHeights() {
+function setHomeElementSize() {
   var blockHeight = $('#home-image').height();
   blockHeight = blockHeight - parseInt( $('.what-block').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.what-block').css('paddingBottom') );
@@ -14,7 +14,7 @@ function setHomeElementHeights() {
   $('.showcase-block').css('line-height', blockHeight+'px');
 };
 
-function setContactElementHeights() {
+function setContactElementSize() {
   var blockHeight = $('#contact-image').height();
   blockHeight = blockHeight - parseInt( $('.contact-block').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.contact-block').css('paddingBottom') );
@@ -23,16 +23,35 @@ function setContactElementHeights() {
   $('.contact-block').css('line-height', blockHeight+'px');
 };
 
+function setServiceElementSize() {
+  var blockHeight = $('#service-image').height();
+  blockHeight = blockHeight - parseInt( $('.service-block').css('paddingTop') );
+  blockHeight = blockHeight - parseInt( $('.service-block').css('paddingBottom') );
+
+  var blockWidth = $('#service-image').width();
+  blockWidth = blockWidth - parseInt( $('.service-block').css('paddingLeft') );
+  blockWidth = blockWidth - parseInt( $('.service-block').css('paddingRight') );
+
+  $('.service-block').height(blockHeight);
+  $('.service-block').css('line-height', blockHeight+'px');
+  $('.service-block').width(blockWidth);
+};
+
 $('#home-image').load(function() {
-  setHomeElementHeights();
+  setHomeElementSize();
 });
 
 $('#contact-image').load(function() {
-  setContactElementHeights();
+  setContactElementSize();
+});
+
+$('#service-image').load(function() {
+  setServiceElementSize();
 });
 
 $(window).resize(function() {
-  setHomeElementHeights();
-  setContactElementHeights();
+  setHomeElementSize();
+  setContactElementSize();
+  setServiceElementSize();
 });
 

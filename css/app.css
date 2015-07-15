@@ -80,21 +80,6 @@ body {
   opacity: 0.7;
 }
 
-.overlay-top {
-  position: absolute;
-  top: 0%;
-}
-
-.overlay-middle {
-  position: absolute;
-  top: 50%;
-}
-
-.overlay-bottom {
-  position: absolute;
-  bottom: 0%;
-}
-
 .v-align-middle {
   display: inline-block;
   vertical-align:middle;
@@ -107,6 +92,11 @@ body {
 .border-top-bottom {
   /* top right bottom left */
   padding: 20px 0 20px 0;
+}
+
+.border-left-right {
+  /* top right bottom left */
+  padding: 0px 20px 0 20px;
 }
 
 .border-all-sides {
@@ -138,6 +128,7 @@ body {
 */
 
 .what-block {
+  text-align: center;
   /* top right bottom left */
   margin: 0px 0px 10px 10px;
   border: 0;
@@ -147,6 +138,7 @@ body {
 }
 
 .showcase-block {
+  text-align: center;
   /* top right bottom left */
   margin: 10px 0px 0px 10px;
   border: 0;
@@ -155,12 +147,27 @@ body {
   line-height: 150px;
 }
 
+.service-block {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+  /* overlay block on image */
+  position: absolute;
+  top: 20px;
+}
+
 .contact-block {
   margin: 0;
   border: 0;
-  padding: 20px;
+  padding: 15px;
   height: 150px;
   line-height: 150px;
+  /* overlay block on image */
+  position: absolute;
+  top: 0%;
 }
 
 .regulated-by-style {
@@ -231,7 +238,12 @@ body {
   height: auto !important;
 }
 
-/* highlight currently selected image */
+/* highlight projects selected image */
 #project-page-images a:hover img {
+    opacity: 0.6;
+}
+
+/* highlight services selected image */
+#service-page-images a:hover div {
     opacity: 0.6;
 }
