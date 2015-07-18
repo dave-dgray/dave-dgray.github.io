@@ -222,7 +222,6 @@ body {
 // ========================================================================
 */
 
-/** Cannot make flexi-height images work with columns - this works! **/
 #project-page-images {
    line-height: 0;
    -webkit-column-count: 3;
@@ -243,7 +242,7 @@ body {
 }
 
 #project-page-images img {
-  padding: 5px;
+  padding: 10px;
   width: 100% !important;
   height: 200px !important;
 }
