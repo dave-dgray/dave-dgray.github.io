@@ -104,6 +104,16 @@ body {
   padding: 0px 20px 0 20px;
 }
 
+.border-left-bottom {
+  /* top right bottom left */
+  padding: 0 0 20px 20px;
+}
+
+.border-right {
+  /* top right bottom left */
+  padding: 0px 20px 0 0;
+}
+
 .border-all-sides {
   padding: 20px;
 }
@@ -161,7 +171,7 @@ body {
   line-height: 150px;
   /* overlay block on image */
   position: absolute;
-  top: 20px;
+  top: 0px;
 }
 
 .contact-block {
