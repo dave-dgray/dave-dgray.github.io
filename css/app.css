@@ -240,7 +240,7 @@ body {
 #project-page-images img {
   padding: 5px;
   width: 100% !important;
-  height: auto !important;
+  height: 200px !important;
 }
 
 /* highlight projects selected image */
