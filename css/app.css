@@ -264,5 +264,5 @@ body {
 
 /* highlight services selected image */
 #service-page-images a:hover div {
-    opacity: 0.6;
+    opacity: 0.9;
 }
