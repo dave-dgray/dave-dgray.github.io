@@ -143,6 +143,12 @@ body {
   line-height: 1em;
 }
 
+.overlay {
+  /* e.g. overlay text on image */
+  position: absolute;
+  top: 0px;
+}
+
 /*
 // ========================================================================
 // Specific element styles
@@ -178,10 +184,11 @@ body {
   line-height: 150px;
 }
 
-.overlay {
-  /* overlay block on image */
-  position: absolute;
-  top: 0px;
+.project-block {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: auto;
 }
 
 .contact-block {
@@ -231,37 +238,6 @@ body {
 
 .map-image {
   width: 100%;
-}
-
-/*
-// ========================================================================
-// PROJECT PAGE GRID IMAGE HANDLING
-// ========================================================================
-*/
-
-#project-page-images {
-   line-height: 0;
-   -webkit-column-count: 3;
-   -webkit-column-gap:   0px;
-   -moz-column-count:    3;
-   -moz-column-gap:      0px;
-   column-count:         3;
-   column-gap:           0px;
-   margin: 5px;
-}
-
-@media (max-width: 200px) {
-  #project-page-images {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
-
-#project-page-images img {
-  padding: 10px;
-  width: 100% !important;
-  height: 200px !important;
 }
 
 /* highlight projects selected image */
