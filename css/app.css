@@ -269,7 +269,7 @@ body {
 
 /* highlight projects selected image */
 #project-page-images a:hover img {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 /* highlight services selected image */
