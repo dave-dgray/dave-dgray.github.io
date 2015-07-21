@@ -190,9 +190,6 @@ body {
   padding: 15px;
   height: 150px;
   line-height: 150px;
-  /* overlay block on image */
-  position: absolute;
-  top: 0%;
 }
 
 .regulated-by-style {
