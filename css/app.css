@@ -8,8 +8,8 @@ body {
 
 /* header area defaults */
 .top-bar {
-  top: 20px;
-  height: 120px;
+  top: 10px;
+  height: 100px;
   color: black;
   background-color: white;
   text-transform: uppercase;
@@ -17,7 +17,7 @@ body {
 
 /* top nav - positioning*/
 .top-bar-section ul {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* top nav - default colors, font size & kerning */
@@ -277,6 +277,7 @@ body {
     opacity: 0.9;
 }
 
+/* styling for contact button */
 #contact-button {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
