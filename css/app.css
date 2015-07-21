@@ -55,6 +55,14 @@ body {
   color: white;
 }
 
+.color-biscuit {
+  color: rgb(166, 160, 126);
+}
+
+.on-white {
+  background-color: white;
+}
+
 .on-biscuit {
   background-color: rgb(166, 160, 126);
 }
@@ -75,8 +83,7 @@ body {
   background-color: rgb(96, 114, 72);
 }
 
-.on-transparent-grey {
-  background-color: rgb(89, 89, 89);
+.semi-transparent {
   opacity: 0.8;
 }
 
@@ -265,4 +272,13 @@ body {
 /* highlight services selected image */
 #service-page-images a:hover div {
     opacity: 0.9;
+}
+
+#contact-button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
 }
