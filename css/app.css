@@ -176,6 +176,9 @@ body {
   padding: 15px;
   height: 150px;
   line-height: 150px;
+}
+
+.overlay {
   /* overlay block on image */
   position: absolute;
   top: 0px;
