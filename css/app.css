@@ -184,11 +184,14 @@ body {
   line-height: 150px;
 }
 
-.project-block {
+.project-caption {
+  text-align: center;
   margin: 0;
   border: 0;
-  padding: 0;
-  width: auto;
+  padding: 0px;
+  height: 150px;
+  line-height: 150px;
+  display: none;
 }
 
 .contact-block {
@@ -243,6 +246,10 @@ body {
 /* highlight projects selected image */
 #project-page-images a:hover img {
     opacity: 0.3;
+}
+
+#project-page-images a:hover .project-caption {
+  display: block;
 }
 
 /* highlight services selected image */
