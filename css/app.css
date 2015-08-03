@@ -8,8 +8,9 @@ body {
 
 /* header area defaults */
 .top-bar {
-  top: 10px;
-  height: 100px;
+  top: 0px;
+  padding: 20px;
+  height: 120px;
   color: black;
   background-color: white;
   text-transform: uppercase;
