@@ -149,6 +149,10 @@ body {
   top: 0px;
 }
 
+.sticky-column{
+    position:fixed;
+}
+
 /*
 // ========================================================================
 // Specific element styles
