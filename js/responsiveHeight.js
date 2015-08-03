@@ -25,16 +25,16 @@ function setContactElementSize() {
 
 function setServiceElementSize() {
   var blockHeight = $('#service-image').height();
-  blockHeight = blockHeight - parseInt( $('.service-block').css('paddingTop') );
-  blockHeight = blockHeight - parseInt( $('.service-block').css('paddingBottom') );
+  blockHeight = blockHeight - parseInt( $('.service-caption').css('paddingTop') );
+  blockHeight = blockHeight - parseInt( $('.service-caption').css('paddingBottom') );
 
   var blockWidth = $('#service-image').width();
-  blockWidth = blockWidth - parseInt( $('.service-block').css('paddingLeft') );
-  blockWidth = blockWidth - parseInt( $('.service-block').css('paddingRight') );
+  blockWidth = blockWidth - parseInt( $('.service-caption').css('paddingLeft') );
+  blockWidth = blockWidth - parseInt( $('.service-caption').css('paddingRight') );
 
-  $('.service-block').height(blockHeight);
-  $('.service-block').css('line-height', blockHeight+'px');
-  $('.service-block').width(blockWidth);
+  $('.service-caption').height(blockHeight);
+  $('.service-caption').css('line-height', blockHeight+'px');
+  $('.service-caption').width(blockWidth);
 };
 
 function setProjectElementSize() {

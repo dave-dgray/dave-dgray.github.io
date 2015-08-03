@@ -175,7 +175,7 @@ body {
   line-height: 150px;
 }
 
-.service-block {
+.service-caption {
   text-align: center;
   margin: 0;
   border: 0;
@@ -208,6 +208,15 @@ body {
   left: 95px;
   font-weight: normal;
   font-size: 12px;
+}
+
+.placeholder-block {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 15px;
+  height: 300px;
+  line-height: 300px;
 }
 
 /*
