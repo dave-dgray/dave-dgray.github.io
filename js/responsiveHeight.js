@@ -51,19 +51,10 @@ function setProjectElementSize() {
   $('.project-caption').width(blockWidth);
 };
 
-$('#home-image').load(function() {
+$(window).load(function() {
   setHomeElementSize();
-});
-
-$('#contact-image').load(function() {
   setContactElementSize();
-});
-
-$('#service-image').load(function() {
   setServiceElementSize();
-});
-
-$('#project-image').load(function() {
   setProjectElementSize();
 });
 
@@ -73,4 +64,3 @@ $(window).resize(function() {
   setServiceElementSize();
   setProjectElementSize();
 });
-
