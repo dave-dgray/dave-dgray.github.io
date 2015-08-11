@@ -6,22 +6,26 @@ body {
   max-width: auto;
 }
 
-/* header area defaults */
+/* top bar defaults */
 .top-bar {
-  top: 0px;
-  padding: 20px;
   height: 120px;
   color: black;
   background-color: white;
   text-transform: uppercase;
 }
 
-/* top nav - positioning*/
-.top-bar-section ul {
-  margin-top: 10px;
+/* top bar logo - positioning & size */
+.top-bar-logo {
+  top: 20px;
+  height: 120px;
 }
 
-/* top nav - default colors, font size & kerning */
+/* top bar nav - positioning */
+.top-bar-section ul {
+  margin-top: 40px;
+}
+
+/* top bar nav - colors, font size & kerning */
 .top-bar-section li:not(.has-form) a:not(.button) {
   color: black;
   background-color: white;
@@ -29,7 +33,7 @@ body {
   letter-spacing: 100;
 }
 
-/* top nav - highlight option when selected */
+/* top bar nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   font-weight: bold;
   color: black;
