@@ -101,7 +101,7 @@ body {
   padding: 0;
 }
 
-.border-bottom {
+.border-bottom-only {
   /* top right bottom left */
   padding: 0 0 20px 0;
 }
@@ -121,31 +121,13 @@ body {
   padding: 0 0 20px 20px;
 }
 
-.border-right {
+.border-right-only {
   /* top right bottom left */
   padding: 0px 20px 0 0;
 }
 
 .border-all-sides {
   padding: 20px;
-}
-
-.font-large {
-  font-size: 1.6em;
-  letter-spacing: 100;
-  line-height: 1.6em;
-}
-
-.font-medium {
-  font-size: 1.2em;
-  letter-spacing: 60;
-  line-height: 1.2em;
-}
-
-.font-small {
-  font-size: 1em;
-  letter-spacing: 60;
-  line-height: 1em;
 }
 
 .overlay {
@@ -283,4 +265,30 @@ body {
     text-decoration: none;
     cursor: pointer;
     border:none;
+}
+
+/* default fonts */
+.font-large {
+  font-size: 1.6em;
+  letter-spacing: 100;
+  line-height: 1.6em;
+}
+
+.font-medium {
+  font-size: 1.2em;
+  letter-spacing: 60;
+  line-height: 1.2em;
+}
+
+.font-small {
+  font-size: 1em;
+  letter-spacing: 60;
+  line-height: 1em;
+}
+
+/* media queries to resize fonts for small devices */
+@media only screen and (max-width: 900px) {
+   .font-large { font-size: 1.4em; }
+   .font-medium { font-size: 1.0em; }
+   .font-small { font-size: 0.8em; }
 }
