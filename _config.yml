@@ -9,3 +9,7 @@ copyright_owner: Pete Hayes
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collections
+collections:
+  project5images:
