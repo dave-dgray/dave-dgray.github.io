@@ -16,7 +16,9 @@ permalink: /project1/
   </div>
 
   <div class="small-7 columns border-all-sides">
-    <img class="border-none" src="/imgs/project1/102_1_St-Mary-the-Virgin-Ware_west-tower_stone-masonry_conservation_repairs_grade-1-listed-building_lime-mortar_plastic-mortar-repairs_stone-replacement_like-for-like-repairs_PCC_quinquennial-survey_specification-of-works_DT.jpg"/>
+    {% for var in site.collections.project1images.files %}
+    <img class="border-bottom-only" src="{{var.path l | replace:'/_','/'}}"/>
+    {% endfor %}
   </div>
 
 </div>

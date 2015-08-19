@@ -18,10 +18,9 @@ permalink: /project2/
   </div>
 
   <div class="small-7 columns border-all-sides">
-    <img class="border-bottom-only" src="/imgs/project2/1_108_05_The-Cage-Shenley_Grade-2-Listed-Building_Cementitous-render-replacement_shenely-parish-council_listed-building-consent_hydraulic-lime-render_lime-wash_DT.jpg"/>
-    <img class="border-bottom-only" src="/imgs/project2/2_108_03_The-Cage-Shenley_Grade-2-Listed-Building_Cementitous-render-replacement_shenely-parish-council_listed-building-consent_hydraulic-lime-render_lime-wash_1280W_DT.jpg"/>
-    <img class="border-bottom-only" src="/imgs/project2/3_108_06_The-Cage-Shenley_Grade-2-Listed-Building_Cementitous-render-replacement_shenely-parish-council_listed-building-consent_hydraulic-lime-render_lime-wash_DT.jpg"/>
-    <img class="border-none" src="/imgs/project2/4_108_01_The-Cage-Shenley_Grade-2-Listed-Building_Cementitous-render-replacement_shenely-parish-council_listed-building-consent_hydraulic-lime-render_lime-wash_DT.jpg"/>
+    {% for var in site.collections.project2images.files %}
+    <img class="border-bottom-only" src="{{var.path l | replace:'/_','/'}}"/>
+    {% endfor %}
   </div>
 
 </div>
