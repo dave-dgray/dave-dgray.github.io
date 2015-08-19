@@ -18,8 +18,8 @@ permalink: /project3/
   </div>
 
   <div class="small-7 columns border-all-sides">
-    {% for var in site.collections.project3images.files %}
-    <img class="border-bottom-only" src="{{var.path l | replace:'/_','/'}}"/>
+    {% for file in site.collections.project3images.files %}
+    <img class="border-bottom-only" src="{{file.path l | replace:'/_','/'}}"/>
     {% endfor %}
   </div>
 
