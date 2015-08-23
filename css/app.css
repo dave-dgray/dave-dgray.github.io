@@ -228,20 +228,13 @@ body {
   line-height: 300px;
 }
 
-.mobile-block {
-  text-align: center;
-  margin: 0;
-  border: 0;
-  padding: 10px;
-  height: 150px;
-  line-height: 150px;
-}
-
 /* element override for mobile */
 @media only screen and (max-width: 650px) {
   /* top right bottom left */
-   .what-block { margin: 0px 0px 20px 0px; }
-   .showcase-block { margin: 0px 0px 20px 0px; }
+  .what-block { margin: 0px 0px 20px 0px; }
+  .showcase-block { margin: 0px 0px 20px 0px; }
+  .sticky-column { position: initial; }
+}
 }
 
 /* styling for contact button */
