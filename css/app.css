@@ -155,7 +155,7 @@ body {
 }
 
 .sticky-column{
-    position:fixed;
+  position: fixed;
 }
 
 /*
@@ -167,7 +167,7 @@ body {
 .what-block {
   text-align: center;
   /* top right bottom left */
-  margin: 0px 0px 10px 10px;
+  margin: 20px 0px 10px 10px;
   border: 0;
   padding: 15px;
   height: 150px;
@@ -177,7 +177,7 @@ body {
 .showcase-block {
   text-align: center;
   /* top right bottom left */
-  margin: 10px 0px 0px 10px;
+  margin: 10px 0px 20px 10px;
   border: 0;
   padding: 15px;
   height: 150px;
@@ -237,9 +237,26 @@ body {
   line-height: 150px;
 }
 
+/* element override for mobile */
+@media only screen and (max-width: 650px) {
+  /* top right bottom left */
+   .what-block { margin: 0px 0px 20px 0px; }
+   .showcase-block { margin: 0px 0px 20px 0px; }
+}
+
+/* styling for contact button */
+#contact-button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
 /*
 // ========================================================================
-// IMAGE SIZING/POSITIONING
+// Image sizing & positioning
 // ========================================================================
 */
 
@@ -270,6 +287,12 @@ body {
   width: 100%;
 }
 
+/*
+// ========================================================================
+// Highlight image selection
+// ========================================================================
+*/
+
 /* highlight projects selected image */
 #project-page-images a:hover img {
     opacity: 0.3;
@@ -282,16 +305,6 @@ body {
 /* highlight services selected image */
 #service-page-images a:hover div {
     opacity: 0.9;
-}
-
-/* styling for contact button */
-#contact-button {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius:6px;
-    text-decoration: none;
-    cursor: pointer;
-    border:none;
 }
 
 /*
