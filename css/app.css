@@ -14,7 +14,7 @@ body {
   text-transform: uppercase;
 }
 
-/* top bar menu - defaults */
+/* top bar mobile menu - defaults */
 .top-bar .toggle-topbar a {
   margin-top: 30px;
   color: black;
@@ -37,7 +37,7 @@ body {
 
 /* top bar nav - font size & kerning */
 .top-bar-section ul li > a {
-  font-size: 1.1em;
+  font-size: 0.9em;
   letter-spacing: 100;
 }
 
@@ -336,15 +336,12 @@ body {
 /* media queries to resize fonts for small devices */
 @media only screen and (max-width: 900px) {
    .font-main { font-size: 1.0em; }
-   .top-bar-section ul li > a { font-size: 0.9em; }
 }
 
 @media only screen and (max-width: 700px) {
    .font-main { font-size: 0.8em; }
-   .top-bar-section ul li > a { font-size: 0.9em; }
 }
 
 @media only screen and (max-width: 650px) {
    .font-main { font-size: 1.0em; }
-   .top-bar-section ul li > a { font-size: 0.9em; }
 }
