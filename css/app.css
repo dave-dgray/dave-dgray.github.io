@@ -8,7 +8,7 @@ body {
 
 /* top bar defaults */
 .top-bar {
-  height: 120px;
+  height: 90px;
   color: black;
   background-color: white;
   text-transform: uppercase;
@@ -16,22 +16,21 @@ body {
 
 /* top bar mobile menu - defaults */
 .top-bar .toggle-topbar a {
-  margin-top: 30px;
+  margin-top: 20px;
   color: black;
   background-color: white;
   text-transform: uppercase;
   font-size: 1.0em;
 }
 
-/* top bar logo - positioning & size */
+/* top bar logo - positioning */
 .top-bar-logo {
   top: 20px;
-  height: 120px;
 }
 
 /* top bar nav - positioning */
 .top-bar-section {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -267,7 +266,7 @@ body {
 }
 
 .logo-normal {
-  width: 250px !important;
+  width: 200px !important;
 }
 
 .member-icon {
