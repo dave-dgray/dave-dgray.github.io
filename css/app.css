@@ -129,6 +129,11 @@ body {
   padding: 20px 0 20px 0;
 }
 
+.border-top-left {
+  /* top right bottom left */
+  padding: 20px 0 0 20px;
+}
+
 .border-left-right {
   /* top right bottom left */
   padding: 0px 20px 0 20px;
@@ -321,15 +326,16 @@ body {
 }
 
 .font-medium {
-  font-size: 1.2em;
-  letter-spacing: 60;
-  line-height: 1.2em;
+  font-size: 1.0em;
+  letter-spacing: 1.5PX;
+  word-spacing: 3PX;
+/*  line-height: 1.0em;*/
 }
 
 .font-small {
-  font-size: 1em;
+  font-size: 0.9em;
   letter-spacing: 60;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 /* media queries to resize fonts for small devices */
