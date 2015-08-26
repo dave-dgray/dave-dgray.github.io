@@ -265,6 +265,10 @@ body {
   max-width: initial;
 }
 
+.full-height {
+  min-height: 550px;
+}
+
 .logo-small {
   width: 200px !important;
 }
