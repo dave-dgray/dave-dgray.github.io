@@ -9,6 +9,6 @@ desc:
     Project reference code 101.<br><br>
 
 images:
-  - url: /imgs/project8/101_04_specification-of-works_building-regulations_listed-building_DT.jpg
-  - url: /imgs/project8/3_101_new-extension_planning-permission_listed-builing-consent_approval_DT.jpg
+  - url: /imgs/project8/1_101_03_new-extension_planning-permission_listed-builing-consent_approval_DT.jpg
+  - url: /imgs/project8/2_101_04_specification-of-works_building-regulations_listed-building_DT.jpg
 ---
