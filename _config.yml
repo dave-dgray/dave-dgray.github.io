@@ -12,11 +12,5 @@ permalink: pretty
 
 # Collections
 collections:
-  project1images:
-  project2images:
-  project3images:
-  project4images:
-  project5images:
-  project6images:
-  project7images:
-  project8images:
+  projects:
+    output: true
