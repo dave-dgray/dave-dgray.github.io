@@ -14,3 +14,5 @@ permalink: pretty
 collections:
   projects:
     output: true
+  services:
+    output: true
