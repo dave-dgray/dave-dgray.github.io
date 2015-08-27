@@ -5,7 +5,7 @@ permalink: /project6/
 desc:
     A 16th Century open hall house with 17th Century first floor insertion.<br><br>
     I have been assisting the owner of this Grade 2 listed, private dwelling, submitting a Building Notice of a Limecrete floor slab; attaining Listed Building Consent approval for remodelling part of a modern extension;  and am currently clearing planning conditions and providing manufacture drawn details for a bespoke, metal frame, leaded light window.<br><br>
-    Project reference code 125.<br><br>
+    Project reference code 125.
 
 images:
   - url: /imgs/project6/1_125-05B-Proposed-Floor-Plan_Listed-Building-Consent_Internal-Remodelling_DT.jpg

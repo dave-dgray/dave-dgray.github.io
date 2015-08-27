@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="small-12 medium-5 columns border-all-sides sticky-column">
+<div class="small-12 medium-5 columns border-dynamic sticky-column">
   <p class="font-medium text-left color-white">
     {{ page.title }}
   </p>
@@ -11,7 +11,7 @@ layout: default
   </p>
 </div>
 
-<div class="small-12 medium-7 columns border-all-sides">
+<div class="small-12 medium-7 columns border-dynamic">
   {% for image in page.images %}
   <img class="border-bottom-only" src="{{ image.url }}"/>
   {% endfor %}

@@ -224,13 +224,8 @@ body {
   font-size: 12px;
 }
 
-.placeholder-block {
-  text-align: center;
-  margin: 0;
-  border: 0;
-  padding: 15px;
-  height: 300px;
-  line-height: 300px;
+.border-dynamic {
+  padding: 20px;
 }
 
 /* element override for mobile */
@@ -240,6 +235,7 @@ body {
   .showcase-block { margin: 0px 0px 20px 0px; }
   .sticky-column { position: initial; }
   .top-bar-section { margin-top: 0px; }
+  .border-dynamic { padding-bottom: 0px; }
 }
 
 /* styling for contact button */
