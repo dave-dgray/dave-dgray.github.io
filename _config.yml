@@ -12,6 +12,8 @@ permalink: pretty
 
 # Collections
 collections:
+  other:
+    output: true
   projects:
     output: true
   services:
