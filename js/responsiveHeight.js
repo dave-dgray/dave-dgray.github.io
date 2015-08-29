@@ -15,12 +15,14 @@ function setHomeElementSize() {
 };
 
 function setContactElementSize() {
-  var blockHeight = $('#contact-image').height();
-  blockHeight = blockHeight - parseInt( $('.contact-block').css('paddingTop') );
+  var imageHeight = $('#map-image').height();
+  blockHeight = imageHeight - parseInt( $('.contact-block').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.contact-block').css('paddingBottom') );
 
   $('.contact-block').height(blockHeight);
   $('.contact-block').css('line-height', blockHeight+'px');
+
+  $('#map-dupe').height(imageHeight);
 };
 
 function setServiceElementSize() {
