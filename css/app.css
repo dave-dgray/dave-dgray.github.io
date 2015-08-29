@@ -316,17 +316,17 @@ body {
 
 /* media queries to resize fonts for small devices */
 @media only screen and (min-width: 1000px) {
-  .font-dynamic { font-size: 1.2em; }
+  .font-dynamic { font-size: 1.1em; }
   #logo-index { height: 70px; }
 }
 
 @media only screen and (max-width: 1000px) {
   .font-dynamic { font-size: 1.0em; }
-  #logo-index { height: 50px; }
+  #logo-index { height: 55px; }
 }
 
 @media only screen and (max-width: 800px) {
-  .font-dynamic { font-size: 0.8em; }
+  .font-dynamic { font-size: 0.9em; }
   #logo-index { height: 40px; }
 }
 
