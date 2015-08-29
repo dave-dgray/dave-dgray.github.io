@@ -41,7 +41,7 @@ body {
 
 /* top bar logo - positioning */
 .top-bar-logo {
-  top: 20px;
+  top: 10px;
 }
 
 /* top bar nav - positioning */
@@ -246,7 +246,7 @@ body {
 */
 
 .logo-header {
-  width: 200px !important;
+  width: 250px !important;
 }
 
 .logo-index {
