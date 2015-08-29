@@ -312,7 +312,7 @@ body {
 */
 
 /* default fonts */
-.font-main {
+.font-dynamic {
   font-size: 1.2em;
   letter-spacing: 100;
   line-height: 1.2em;
@@ -339,13 +339,13 @@ body {
 
 /* media queries to resize fonts for small devices */
 @media only screen and (max-width: 900px) {
-   .font-main { font-size: 1.0em; }
+   .font-dynamic { font-size: 1.0em; }
 }
 
 @media only screen and (max-width: 700px) {
-   .font-main { font-size: 0.8em; }
+   .font-dynamic { font-size: 0.8em; }
 }
 
 @media only screen and (max-width: 650px) {
-   .font-main { font-size: 1.0em; }
+   .font-dynamic { font-size: 1.0em; }
 }
