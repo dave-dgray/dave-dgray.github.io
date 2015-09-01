@@ -314,6 +314,10 @@ body {
   text-decoration: underline;
 }
 
+.font-uppercase {
+  text-transform: uppercase;
+}
+
 /* media queries to resize fonts for small devices */
 @media only screen and (min-width: 1000px) {
   .font-dynamic { font-size: 1.1em; }
