@@ -1,0 +1,20 @@
+# Site settings
+title: Sue Jarman
+description: Art, Design, Illustration & Photography
+email: sue@suejarman.co.uk
+url: http://suejarman.co.uk
+baseurl: ''
+port: 3000
+
+twitter_username: sue_jarman
+github_username:  suejarman
+tumblr_username: sue@suejarman.co.uk
+copyright_owner: Sue Jarman
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+collections:
+  galleries:
+    output: true

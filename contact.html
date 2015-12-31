@@ -1,0 +1,57 @@
+---
+layout: default
+title: Contact
+menu_control: Contact
+---
+
+<div class="medium-4 columns show-for-medium-up">
+  <b>Address:</b>
+  <textarea disabled rows="5">
+  {{ site.data.contact_content.address }}
+  </textarea>
+
+  <b>Email:</b>
+  <a href="mailto:{{ site.data.contact_content.email }}">
+  <textarea disabled>
+  {{ site.data.contact_content.email }}
+  </textarea>
+  </a>
+
+  <b>Tel:</b>
+  <textarea disabled>
+  {{ site.data.contact_content.tel }}
+  </textarea>
+
+</div>
+
+<div class="medium-8 columns show-for-medium-up">
+  {% for image in site.data.contact_content.images %}
+    <img src="{{ image.url }}">
+  {% endfor %}
+</div>
+
+<div class="large-12 columns show-for-small-only">
+  <b>Address:</b>
+  <textarea disabled rows="5">
+  {{ site.data.contact_content.address }}
+  </textarea>
+
+  <b>Email:</b>
+  <a href="mailto:{{ site.data.contact_content.email }}">
+  <textarea disabled>
+  {{ site.data.contact_content.email }}
+  </textarea>
+  </a>
+
+  <b>Tel:</b>
+  <textarea disabled>
+  {{ site.data.contact_content.tel }}
+  </textarea>
+
+</div>
+
+<div class="large-12 columns show-for-small-only">
+  {% for image in site.data.contact_content.images %}
+  <img src="{{ image.url }}">
+  {% endfor %}
+</div>

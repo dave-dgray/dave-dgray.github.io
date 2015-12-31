@@ -1,0 +1,16 @@
+title: My Portfolio
+  
+desc: My portfolio contains examples of illustration, design, photography, art direction and styling. It includes concept development and visual outcomes for editorial, branding, advertising, communication and product design. It is a showcase of my commissioned, collaborative and personal projects.
+
+images:
+  - image_url: /imgs/home/art_direction.jpg
+    link_url: /galleries/art-direction.html
+
+  - image_url: /imgs/home/design.jpg
+    link_url: /galleries/design.html
+
+  - image_url: /imgs/home/illustration.jpg
+    link_url: /galleries/illustration.html
+
+  - image_url: /imgs/home/photography.jpg
+    link_url: /galleries/photography.html

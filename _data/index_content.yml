@@ -1,0 +1,39 @@
+images:
+  - image_url: /imgs/home/title.jpg
+    link_url: /portfolio/
+  
+  - image_url: /imgs/home/image_1.jpg
+    link_url: /galleries/photography.html
+
+  - image_url: /imgs/home/illustration.jpg
+    link_url: /galleries/illustration.html
+
+
+  - image_url: /imgs/home/image_2.jpg
+    link_url: /galleries/illustration.html
+
+  - image_url: /imgs/home/photography.jpg
+    link_url: /galleries/photography.html
+  
+  - image_url: /imgs/home/image_3.jpg
+    link_url: /galleries/photography.html
+
+
+  - image_url: /imgs/home/image_4.jpg
+    link_url: /galleries/illustration.html
+
+  - image_url: /imgs/home/design.jpg
+    link_url: /galleries/design.html
+
+  - image_url: /imgs/home/image_5.jpg
+    link_url: /galleries/illustration.html
+  
+
+  - image_url: /imgs/home/image_6.jpg
+    link_url: /galleries/photography.html
+  
+  - image_url: /imgs/home/art_direction.jpg
+    link_url: /galleries/art-direction.html
+
+  - image_url: /imgs/home/image_7.jpg
+    link_url: /galleries/design.html

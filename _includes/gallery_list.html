@@ -1,0 +1,5 @@
+<ul class="side-nav">
+  {% for gallery in site.galleries %}
+    <li {% if page.title == gallery.title %} class='active' {% endif %}><a href="{{ gallery.url }}">{{ gallery.title }}</a></li>
+  {% endfor %}
+</ul>

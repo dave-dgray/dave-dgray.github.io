@@ -1,0 +1,28 @@
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name visible-for-small-only">
+      <a href="{{ site.baseurl }}/"><img src="/imgs/sJ Logo 90per black.png" id="sjlogo-small"/></a>
+    </li>
+    <li class="name visible-for-medium-up">
+      <a href="{{ site.baseurl }}/"><img src="/imgs/sJ Logo 90per black.png" id="sjlogo"/></a>
+    </li>
+    <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="left">
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      {% for page in site.pages %}
+        {% if page.title %} 
+          <li>
+          {% if page.title == 'Blog' %}
+            <a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% else %}
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</nav>
