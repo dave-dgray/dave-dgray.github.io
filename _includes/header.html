@@ -1,28 +1,25 @@
-<nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name visible-for-small-only">
-      <a href="{{ site.baseurl }}/"><img src="/imgs/sJ Logo 90per black.png" id="sjlogo-small"/></a>
-    </li>
-    <li class="name visible-for-medium-up">
-      <a href="{{ site.baseurl }}/"><img src="/imgs/sJ Logo 90per black.png" id="sjlogo"/></a>
-    </li>
-    <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
-  </ul>
+<div class="sticky">
 
-  <section class="top-bar-section">
-    <ul class="left">
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
-      {% for page in site.pages %}
-        {% if page.title %} 
-          <li>
-          {% if page.title == 'Blog' %}
-            <a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% else %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-</nav>
+  <nav class="top-bar" data-topbar role="navigation">
+
+    <div class="small-8 medium-5 columns border-all-sides">
+      <a href="{{ site.baseurl }}/"><img src="/imgs/logos/sJ Logo 90per black.png" class="logo-header"></a>
+    </div>
+
+    <div class="toggle-topbar">
+      <a href="#"><span>Menu</span></a>
+    </div>
+
+    <div class="top-bar-section">
+      <ul class="right">
+        <li><a href="{{ site.baseurl }}">HOME</a></li>
+        <li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
+        <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">BLOG</a></li>
+        <li><a href="{{ site.baseurl }}/contact">CONTACT</a></li>
+        <li><a href="{{ site.baseurl }}/portfolio">PORTFOLIO</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+</div>

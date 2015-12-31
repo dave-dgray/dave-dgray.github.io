@@ -1,177 +1,14 @@
-/* load fonts */
-.Campton-Light {
-	font-family: Campton-Light;
-	font-weight: normal;
-	font-style: normal;
-}
+/*
+// ========================================================================
+// whole page defaults
+// ========================================================================
+*/
 
-@font-face {
-  font-family: 'NeusaMedium';
-  src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
-}
-
-/* whole page defaults */
 body {
-  font-family: Campton-Light;
-  color: rgb(128, 130, 133);
+  font-family: Avenir, sans-serif;
+  color: black;
   background-color: white;
-  max-width: 94%;
-}
-
-/* menu item defaults */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'NeusaMedium';
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-  font-size: 1.7em;
-}
-
-/* header area defaults */
-.top-bar,
-.top-bar .title-area,
-.top-bar .name {
-  min-height: 80px;
-  height: 80px;
-  background: #fff;
-}
-
-/* header area - shift logo down & right */
-.top-bar .title-area .name {
-  padding: 15px;
-  margin-left: 0px;
-}
-
-/* mobile MENU defaults */
-.top-bar .toggle-topbar a,
-.top-bar .toggle-topbar.menu-icon a {
-  font-family: 'NeusaMedium';
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-  font-size: 1.4em;
-  padding: 0px 15px 0px 0px;
-}
-
-/* mobile MENU - shift down */
-.top-bar .toggle-topbar{
-  top: 20px;
-}
-
-/* top nav defaults */
-.top-bar-section ul li,
-.top-bar-section ul li a,
-.top-bar-section li:not(.has-form) a:not(.button) {
-  font-family: 'NeusaMedium';
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-  font-size: 1.2em;
-  background: none;
-}
-
-/* top nav - shift down */
-.top-bar-section ul {
-  margin-top: 20px;
-}
-
-/* top nav - highlight option when selected */
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: rgb(245, 165, 151);
-  color: #000;
-}
-
-/* side nav defaults */
-.side-nav li a,
-.side-nav li a:not(.button),
-.side-nav li.active > a:first-child:not(.button) {
-  font-family: 'NeusaMedium';
-  color: rgb(128, 130, 133);
-  text-transform: uppercase;
-  font-size: 1.7em;
-}
-
-/* side nav - highlight option when selected */
-.side-nav li.active > a:first-child:not(.button) {
-  background-color: rgb(245, 165, 151);
-  color: #000;
-}
-
-/* footer area defaults */
-.footer-area {
-  min-height: 100px;
-  margin-top: 20px;
-}
-
-/*
-// ========================================================================
-// HOME PAGE GRID IMAGE HANDLING
-// ========================================================================
-*/
-
-/** Cannot make flexi-height images work with columns - this works! **/
-#home-page-images {
-   line-height: 0;
-   -webkit-column-count: 4;
-   -webkit-column-gap:   0px;
-   -moz-column-count:    4;
-   -moz-column-gap:      0px;
-   column-count:         4;
-   column-gap:           0px;
- }
-
-#home-page-images img {
-  margin-left: 10px;
-  width: 100% !important;
-  height: auto !important;
-}
-
-/* highlight currently selected image */
-#home-page-images a:hover img {
-    opacity: 0.6;
-}
-
-@media (max-width: 1000px) {
-  #home-page-images {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-
-@media (max-width: 800px) {
-  #home-page-images {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-
-@media (max-width: 400px) {
-  #home-page-images {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
-
-/*
-// ========================================================================
-// ELEMENT SIZING/POSITIONING
-// ========================================================================
-*/
-
-img {
-  max-width: 100%;
-  margin-bottom: 10px;
-  height: auto !important;
-}
-
-.pull-left {
-  display: inline-block;
-  float: left;
-}
-
-.pull-right {
-  display: inline-block;
-  float: right;
+  max-width: auto;
 }
 
 .full-width {
@@ -181,66 +18,351 @@ img {
   max-width: initial;
 }
 
+.full-height {
+  min-height: 550px;
+}
+
+/* top bar defaults */
+.top-bar {
+  height: 90px;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+/* top bar mobile menu - defaults */
+.top-bar .toggle-topbar a {
+  margin-top: 20px;
+  color: rgb(89, 89, 89);
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 1.0em;
+}
+
+/* top bar logo - positioning */
+.top-bar-logo {
+  top: 10px;
+}
+
+/* top bar nav - positioning */
+.top-bar-section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* top bar nav - font size & kerning */
+.top-bar-section ul li > a {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+/* top bar nav - colors */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  color: rgb(89, 89, 89);
+  background-color: white;
+}
+
+/* top bar nav - highlight option when selected */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+  background-color: white;
+}
+
+/* footer area defaults */
+.footer-area {
+  min-height: 100px;
+  margin-top: 1%;
+}
+
 /*
 // ========================================================================
-// LOGO'S
+// Generic element styles
 // ========================================================================
 */
 
-img#sjlogo {
-  width: 240px !important;
+.color-black {
+  color: black;
 }
 
-img#sjlogo-small {
-  width: 210px !important;
+.color-white {
+  color: white;
 }
 
-img.social-icon {
+.on-biscuit {
+  background-color: rgb(166, 160, 126);
+}
+
+.on-light-green {
+  background-color: rgb(116, 137, 81);
+}
+
+.on-dark-grey {
+  background-color: rgb(89, 89, 89);
+}
+
+.on-light-grey {
+  background-color: rgb(160, 151, 146);
+}
+
+.on-dark-green {
+  background-color: rgb(96, 114, 72);
+}
+
+.on-contact {
+  background-color: rgb(121, 120, 116);
+}
+
+.semi-transparent {
+  opacity: 0.9;
+}
+
+.v-align-middle {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.border-none {
+  padding: 0;
+}
+
+.border-bottom-only {
+  /* top right bottom left */
+  padding: 0 0 20px 0;
+}
+
+.border-top-bottom {
+  /* top right bottom left */
+  padding: 20px 0 20px 0;
+}
+
+.border-top-left {
+  /* top right bottom left */
+  padding: 20px 0 0 20px;
+}
+
+.border-bottom-left {
+  /* top right bottom left */
+  padding: 0 0 20px 20px;
+}
+
+.border-right-only {
+  /* top right bottom left */
+  padding: 0px 20px 0 0;
+}
+
+.border-all-sides {
+  padding: 20px;
+}
+
+.overlay {
+  /* e.g. overlay text on image */
+  position: absolute;
+  top: 0px;
+}
+
+.sticky-column{
+  position: fixed;
+}
+
+/*
+// ========================================================================
+// Specific element styles
+// ========================================================================
+*/
+
+.what-block {
+  text-align: center;
+  /* top right bottom left */
+  margin: 20px 0px 10px 10px;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.showcase-block {
+  text-align: center;
+  /* top right bottom left */
+  margin: 10px 0px 20px 10px;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.service-caption {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.project-caption {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0px;
+  height: 150px;
+  line-height: 150px;
+  display: none;
+}
+
+.contact-block {
+  margin: 0;
+  border: 0;
+  padding: 15px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.regulated-by-style {
+  text-align: center;
+  position: absolute;
+  left: 95px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.design-by-style {
+  text-align: center;
+  position: absolute;
+  top: 9px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.border-dynamic {
+  padding: 20px;
+}
+
+#contact-button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+/*
+// ========================================================================
+// Image and logo sizing
+// ========================================================================
+*/
+
+.logo-header {
+  width: 250px !important;
+}
+
+#logo-index {
+  width: auto;
+}
+
+.member-icon {
+  width: 80px !important;
+}
+
+.social-icon {
   width: 30px !important;
 }
 
-img.portfolio-thumb {
-  width: 200px !important;
-  margin: 6px;
+#map-image {
+  width: 100%;
 }
 
-img.portfolio-thumb-mobile {
-  margin: 6px;
+#map-dupe {
+  height: 100%;
 }
 
 /*
 // ========================================================================
-// Galleries
+// Highlight image selection
 // ========================================================================
 */
 
-/* Shift gallery images down a little from top */
-.visible-img img {
-  padding-top: 2%;
-  height: 95%;
-  }
-
-/* set the caption colour and shift below the image */
-.clearing-caption {
-  background: none;
-  color: black;
-  top: 101%;
+#project-page-images a:hover img {
+    opacity: 0.3;
 }
 
-/* Ensure caption is still visible */
-.clearing-assembled .clearing-container .visible-img {
-  overflow: visible;
+#project-page-images a:hover .project-caption {
+  display: block;
 }
-    
-/* Set the background color for all galleries */
-.clearing-assembled .clearing-container .visible-img {
-  background-color: WhiteSmoke;
-  }
-.clearing-blackout {
-  background-color: WhiteSmoke;
-  }
 
-/* Don't display the carousel in any gallery */
-.clearing-container .carousel {
-  display: none;
+#service-page-images a:hover div {
+    opacity: 0.9;
+}
+
+/*
+// ========================================================================
+// Font sizing
+// ========================================================================
+*/
+
+.font-dynamic {
+  font-size: 1.2em;
+  letter-spacing: 100;
+  line-height: 1.2em;
+}
+
+.font-medium {
+  font-size: 1.0em;
+  letter-spacing: 1.5PX;
+  word-spacing: 3PX;
+}
+
+.font-small {
+  font-size: 0.9em;
+  letter-spacing: 60;
+}
+
+.font-underline {
+  text-decoration: underline;
+}
+
+.font-uppercase {
+  text-transform: uppercase;
+}
+
+/* media queries to resize fonts for small devices */
+@media only screen and (min-width: 1000px) {
+  .font-dynamic { font-size: 1.1em; }
+  #logo-index { height: 70px; }
+}
+
+@media only screen and (max-width: 1000px) {
+  .font-dynamic { font-size: 1.0em; }
+  #logo-index { height: 55px; }
+}
+
+@media only screen and (max-width: 800px) {
+  .font-dynamic { font-size: 0.9em; }
+  #logo-index { height: 40px; }
+}
+
+@media only screen and (max-width: 600px) {
+  .font-dynamic { font-size: 1.1em; }
+  #logo-index { height: 50px; }
+}
+
+@media only screen and (max-width: 400px) {
+  .font-dynamic { font-size: 0.9em; }
+  #logo-index { height: 30px; }
+}
+
+/*
+// ========================================================================
+// Element overrides for mobile
+// ========================================================================
+*/
+
+@media only screen and (max-width: 650px) {
+  /* top right bottom left */
+  .what-block { margin: 0px 0px 20px 0px; }
+  .showcase-block { margin: 0px 0px 20px 0px; }
+  .sticky-column { position: initial; }
+  .top-bar-section { margin-top: 0px; }
+  .border-dynamic { padding-bottom: 0px; }
 }
