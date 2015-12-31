@@ -1,12 +1,29 @@
 /*
 // ========================================================================
+// Load fonts
+// ========================================================================
+*/
+
+.Campton-Light {
+	font-family: Campton-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeusaMedium';
+  src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
+}
+
+/*
+// ========================================================================
 // whole page defaults
 // ========================================================================
 */
 
 body {
-  font-family: Avenir, sans-serif;
-  color: black;
+  font-family: Campton-Light;
+  color: rgb(128, 130, 133);
   background-color: white;
   max-width: auto;
 }
