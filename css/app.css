@@ -28,6 +28,16 @@ body {
   max-width: auto;
 }
 
+.cover:before {
+  content: "";
+  background-image: url( /imgs/illustration/8_line_of_houses_por.jpg );
+  background-size: cover;
+  opacity: 0.5;
+  height:100%;
+  width:100%;
+  position: absolute;
+}
+
 .full-width {
   width: 100%;
   margin-left: 0px;
