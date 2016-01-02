@@ -31,6 +31,7 @@ body {
   content: "";
   background-image: url( /imgs/illustration/fashion_illustration_sue_jarman_por.jpg );
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0.3;
   height:100%;
   width:100%;
