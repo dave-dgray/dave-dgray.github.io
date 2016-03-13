@@ -1,22 +1,13 @@
-<nav class="top-bar" data-topbar role="navigation">
+<div class="toggle-topbar">
+  <a href="#"><span>Menu</span></a>
+</div>
 
-    <div class="small-8 medium-5 columns border-all-sides">
-      <a href="{{ site.baseurl }}/"><img src="/imgs/logos/sJ Logo 90per black.png" class="logo-header"></a>
-    </div>
-
-    <div class="toggle-topbar">
-      <a href="#"><span>Menu</span></a>
-    </div>
-
-    <div class="top-bar-section">
-      <ul class="right">
-        <li><a href="{{ site.baseurl }}/">HOME</a></li>
-        <li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
-        <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">BLOG</a></li>
-        <li><a href="{{ site.baseurl }}/contact">CONTACT</a></li>
-        <li><a href="{{ site.baseurl }}/portfolio">PORTFOLIO</a></li>
-      </ul>
-    </div>
-
-</nav>
-
+<div class="top-bar-section">
+  <ul class="right">
+    <li><a href="{{ site.baseurl }}/">HOME</a></li>
+    <li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
+    <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">BLOG</a></li>
+    <li><a href="{{ site.baseurl }}/contact">CONTACT</a></li>
+    <li><a href="{{ site.baseurl }}/portfolio">PORTFOLIO</a></li>
+  </ul>
+</div>

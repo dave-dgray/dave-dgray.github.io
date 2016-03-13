@@ -4,12 +4,6 @@
 // ========================================================================
 */
 
-.Campton-Light {
-	font-family: Campton-Light;
-	font-weight: normal;
-	font-style: normal;
-}
-
 @font-face {
   font-family: 'NeusaMedium';
   src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
@@ -22,20 +16,22 @@
 */
 
 body {
-  font-family: Campton-Light;
-  color: rgb(128, 130, 133);
+  font-family: NeusaMedium;
+  color: white;
   max-width: auto;
 }
 
-.cover:before {
-  content: "";
-  background-image: url( /imgs/illustration/fashion_illustration_sue_jarman_por.jpg );
+.coverBackground {
+  background-image: url( /imgs/home/Trees-home.jpg );
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.3;
   height:100%;
   width:100%;
   position: absolute;
+}
+
+.basicBackground {
+  background-color: rgb(8, 65, 95);
 }
 
 .full-width {
@@ -59,7 +55,6 @@ body {
 /* top bar mobile menu - defaults */
 .top-bar .toggle-topbar a {
   margin-top: 20px;
-  color: rgb(89, 89, 89);
   text-transform: uppercase;
   font-size: 1.0em;
 }
@@ -85,14 +80,14 @@ body {
 .top-bar-section ul li > a {
   font-size: 0.8em;
   font-weight: 300;
-  color: rgb(89, 89, 89);
+  color: white;
   background-color: transparent !important;
 }
 
 /* top bar nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   font-weight: bold;
-  color: rgb(89, 89, 89);
+  color: white;
 }
 
 /* footer area defaults */
@@ -197,12 +192,8 @@ body {
 // ========================================================================
 */
 
-.what-block {
+.index-style {
   text-align: center;
-  /* top right bottom left */
-  margin: 20px 0px 10px 10px;
-  border: 0;
-  padding: 15px;
   height: 150px;
   line-height: 150px;
 }
@@ -331,6 +322,18 @@ body {
   font-size: 1.2em;
   letter-spacing: 100;
   line-height: 1.2em;
+}
+
+.font-xlarge {
+  font-size: 8.0em;
+  letter-spacing: 1.5PX;
+  word-spacing: 3PX;
+}
+
+.font-large {
+  font-size: 3.0em;
+  letter-spacing: 1.5PX;
+  word-spacing: 3PX;
 }
 
 .font-medium {

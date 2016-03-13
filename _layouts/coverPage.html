@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<div class="cover">
+<body class="coverBackground">
 
-    <div class="row full-width header-area">
-        {% include header.html %}
+    <div class="row full-width">
+        <nav class="top-bar" data-topbar role="navigation">
+            <div class="small-8 medium-5 columns border-all-sides">
+            </div>
+            {% include header.html %}
+        </nav>
     </div>
 
     <div class="row full-width">
@@ -16,4 +20,4 @@ layout: default
         {% include footer.html %}
     </div>
 
-</div>
+</body>
