@@ -1,0 +1,28 @@
+---
+layout: basicPage
+---
+
+<div class="small-12 columns border-top-left">
+  <p class="font-medium text-left color-white">
+    PROJECTS
+  </p>
+</div>
+
+<section id="project-page-images">
+
+  <div class="border-right-only">
+
+    {% for project in site.projects %}
+    <div class="small-12 medium-4 columns border-bottom-left">
+      <a href="{{ project.permalink }}">
+        <img src="{{ project.summary }}" id="project-image"/>
+        <div class="project-caption overlay color-white">
+          <p class="font-medium v-align-middle">{{project.title}}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</section>

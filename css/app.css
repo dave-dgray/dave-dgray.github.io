@@ -92,8 +92,11 @@ body {
 
 /* footer area defaults */
 .footer-area {
-  min-height: 100px;
-  margin-top: 1%;
+  height: 50px;
+  line-height: 50px;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
 }
 
 /*
