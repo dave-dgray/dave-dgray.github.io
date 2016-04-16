@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: folio
 title: Photography
-permalink: /photography/
+permalink: /project3/
 desc: Travel, product and food photography for advertising and promotion.
 summary: /imgs/photography/1_alpine_mountains_por.jpg
 images:

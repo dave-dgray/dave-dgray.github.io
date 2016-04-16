@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: folio
 title: Art Direction
-permalink: /art-direction/
+permalink: /project2/
 desc: Art direction, styling and concept development projects for fashion and photography.
 summary: /imgs/art-direction/1_breakfast_racheljeffrey_por.jpg
 images:

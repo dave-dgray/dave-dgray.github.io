@@ -1,15 +1,15 @@
 function setProjectElementSize() {
-  var blockHeight = $('#project-image').height();
-  blockHeight = blockHeight - parseInt( $('.project-caption').css('paddingTop') );
-  blockHeight = blockHeight - parseInt( $('.project-caption').css('paddingBottom') );
+  var blockHeight = $('#folio-image').height();
+  blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingTop') );
+  blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingBottom') );
 
-  var blockWidth = $('#project-image').width();
-  blockWidth = blockWidth - parseInt( $('.project-caption').css('paddingLeft') );
-  blockWidth = blockWidth - parseInt( $('.project-caption').css('paddingRight') );
+  var blockWidth = $('#folio-image').width();
+  blockWidth = blockWidth - parseInt( $('.folio-caption').css('paddingLeft') );
+  blockWidth = blockWidth - parseInt( $('.folio-caption').css('paddingRight') );
 
-  $('.project-caption').height(blockHeight);
-  $('.project-caption').css('line-height', blockHeight+'px');
-  $('.project-caption').width(blockWidth);
+  $('.folio-caption').height(blockHeight);
+  $('.folio-caption').css('line-height', blockHeight+'px');
+  $('.folio-caption').width(blockWidth);
 };
 
 $(window).load(function() {

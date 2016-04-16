@@ -4,7 +4,7 @@ layout: basicPage
 
 <div class="small-12 columns border-top-left">
   <p class="font-medium text-left color-white">
-    PROJECTS
+    ILLUSTRATION
   </p>
 </div>
 
@@ -12,12 +12,12 @@ layout: basicPage
 
   <div class="border-right-only">
 
-    {% for project in site.projectGallery %}
+    {% for illustration in site.illustrationGallery %}
     <div class="small-12 medium-4 columns border-bottom-left">
-      <a href="{{ project.permalink }}">
-        <img src="{{ project.summary }}" id="folio-image"/>
+      <a href="{{ illustration.permalink }}">
+        <img src="{{ illustration.summary }}" id="folio-image"/>
         <div class="folio-caption overlay color-white">
-          <p class="font-medium v-align-middle">{{project.title}}</p>
+          <p class="font-medium v-align-middle">{{illustration.title}}</p>
         </div>
       </a>
     </div>

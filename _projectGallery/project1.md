@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: folio
 title: Design
-permalink: /design/
+permalink: /project1/
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
 summary: /imgs/design/14_newsletter_cocktails_redengine_por.jpg
 images:
