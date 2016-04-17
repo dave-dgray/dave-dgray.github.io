@@ -1,0 +1,22 @@
+---
+layout: basicPage
+---
+
+<div class="small-12 columns border-dynamic">
+  <p class="font-large text-center color-white uppercase">
+    {{ page.title }}
+  </p>
+  {% for image in page.images %}
+    <div class="show-for-small-only text-center">
+      <img class="border-none" src="{{ image.mobile }}"/>
+    </div>
+    <div class="show-for-medium-up text-center">
+      <img class="border-none" src="{{ image.desktop }}"/>
+    </div>
+    {% if forloop.first %}
+      <p class="font-medium border-top-bottom text-center color-white on-light-green">
+        {{ page.desc }}
+      </p>
+    {% endif %}
+  {% endfor %}
+</div>

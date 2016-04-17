@@ -1,5 +1,5 @@
 ---
-layout: folio
+layout: folio2
 title: Photography
 permalink: /project3/
 desc: Travel, product and food photography for advertising and promotion.

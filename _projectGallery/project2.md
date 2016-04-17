@@ -1,5 +1,5 @@
 ---
-layout: folio
+layout: folio2
 title: Art Direction
 permalink: /project2/
 desc: Art direction, styling and concept development projects for fashion and photography.

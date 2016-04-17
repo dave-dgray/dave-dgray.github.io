@@ -1,5 +1,5 @@
 ---
-layout: folio
+layout: folio2
 title: Illustration
 permalink: /illustration1/
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
