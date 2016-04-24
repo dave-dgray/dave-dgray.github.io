@@ -14,9 +14,11 @@ layout: basicPage
       <img class="border-none" src="{{ image.desktop }}"/>
     </div>
     {% if forloop.first %}
-      <p class="font-medium border-top-bottom text-center color-white on-light-green">
-        {{ page.desc }}
-      </p>
+      <div class="border-top-only">
+        <p class="font-medium text-center color-white on-light-green">
+          {{ page.desc }}
+        </p>
+      </div>
     {% endif %}
   {% endfor %}
 </div>
