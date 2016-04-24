@@ -14,11 +14,14 @@ layout: basicPage
       <img class="border-none" src="{{ image.desktop }}"/>
     </div>
     {% if forloop.first %}
-      <div class="border-top-only">
-        <p class="font-medium text-center color-white on-light-green">
+      <div class="border-top-only text-center">
+        <p class="font-medium color-white on-light-green">
           {{ page.desc }}
         </p>
       </div>
     {% endif %}
   {% endfor %}
+  <div class="border-top-only text-center">
+    <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png"/></a>
+  </div>
 </div>
