@@ -1,4 +1,18 @@
-function setProjectElementSize() {
+function setSummaryElementSize() {
+  var blockHeight = $('#summary-image').height();
+  blockHeight = blockHeight - parseInt( $('.summary-caption').css('paddingTop') );
+  blockHeight = blockHeight - parseInt( $('.summary-caption').css('paddingBottom') );
+
+  var blockWidth = $('#summary-image').width();
+  blockWidth = blockWidth - parseInt( $('.summary-caption').css('paddingLeft') );
+  blockWidth = blockWidth - parseInt( $('.summary-caption').css('paddingRight') );
+
+  $('.summary-caption').height(blockHeight);
+  $('.summary-caption').css('line-height', blockHeight+'px');
+  $('.summary-caption').width(blockWidth);
+};
+
+function setFolioElementSize() {
   var blockHeight = $('#folio-image').height();
   blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingBottom') );
@@ -13,9 +27,11 @@ function setProjectElementSize() {
 };
 
 $(window).load(function() {
-  setProjectElementSize();
+  setSummaryElementSize();
+  setFolioElementSize();
 });
 
 $(window).resize(function() {
-  setProjectElementSize();
+  setSummaryElementSize();
+  setFolioElementSize();
 });

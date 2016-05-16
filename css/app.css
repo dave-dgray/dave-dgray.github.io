@@ -206,7 +206,7 @@ body {
   line-height: 150px;
 }
 
-.folio-caption {
+.summary-caption {
   text-align: center;
   margin: 0;
   border: 0;
@@ -214,6 +214,16 @@ body {
   height: 150px;
   line-height: 150px;
   display: none;
+}
+
+.folio-caption {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0px;
+  height: 150px;
+  line-height: 150px;
+  display: block;
 }
 
 .contact-block {
@@ -277,11 +287,15 @@ body {
 // ========================================================================
 */
 
-#folio-page-images a:hover img {
+#folio-overlay img {
     opacity: 0.3;
 }
 
-#folio-page-images a:hover .folio-caption {
+#summary-overlay a:hover img {
+    opacity: 0.3;
+}
+
+#summary-overlay a:hover .summary-caption {
   display: block;
 }
 

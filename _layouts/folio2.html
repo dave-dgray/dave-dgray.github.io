@@ -3,21 +3,25 @@ layout: basicPage
 ---
 
 <div class="small-12 columns border-dynamic">
-  <p class="font-large text-center color-white uppercase">
-    {{ page.title }}
-  </p>
   {% for image in page.images %}
-    <div class="show-for-small-only text-center">
-      <img class="border-none" src="{{ image.mobile }}"/>
-    </div>
-    <div class="show-for-medium-up text-center">
-      <img class="border-none" src="{{ image.desktop }}"/>
-    </div>
     {% if forloop.first %}
-      <div class="border-top-only text-center">
-        <p class="font-medium color-white on-light-green">
-          {{ page.desc }}
-        </p>
+      <section id="folio-overlay">
+        <img class="border-none" src="{{ image.desktop }}" id="folio-image"/>
+        <div class="folio-caption overlay color-white">
+          <p class="font-large v-align-middle text-center uppercase">{{ page.title }}</p>
+        </div>
+        <div class="border-top-only text-center">
+          <p class="font-medium color-white on-light-green">
+            {{ page.desc }}
+          </p>
+        </div>
+      </section>
+    {% else %}
+      <div class="show-for-small-only text-center">
+        <img class="border-none" src="{{ image.mobile }}"/>
+      </div>
+      <div class="show-for-medium-up text-center">
+        <img class="border-none" src="{{ image.desktop }}"/>
       </div>
     {% endif %}
   {% endfor %}
