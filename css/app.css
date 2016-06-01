@@ -70,10 +70,15 @@ body {
   text-align: center;
 }
 
-/* top bar nav - defaults colors */
+/* top bar nav - default colors */
 .top-bar-section ul li {
   color: rgb(89, 89, 89);
   background-color: transparent !important;
+}
+
+/* top bar dropdown - default colors */
+.top-bar-section .dropdown {
+  background: rgb(8, 65, 95);
 }
 
 /* top bar nav - font size & kerning */
