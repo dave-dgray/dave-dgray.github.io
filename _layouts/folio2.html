@@ -6,22 +6,24 @@ layout: basicPage
   {% for image in page.images %}
     {% if forloop.first %}
       <section id="folio-overlay">
-        <img class="border-none" src="{{ image.desktop }}" id="folio-image"/>
-        <div class="folio-caption overlay color-white">
-          <p class="font-large v-align-middle text-center uppercase">{{ page.title }}</p>
+        <div class="border-bottom-only text-center">
+          <img class="border-none" src="{{ image.desktop }}" id="folio-image"/>
+          <div class="folio-caption overlay color-white">
+            <p class="font-large v-align-middle text-center uppercase">{{ page.title }}</p>
+          </div>
         </div>
-        <div class="border-top-only text-center">
-          <p class="font-medium color-white on-light-green">
-            {{ page.desc }}
-          </p>
-        </div>
+        <p class="font-medium color-white on-light-green">
+          {{ page.desc }}
+        </p>
       </section>
     {% else %}
-      <div class="show-for-small-only text-center">
-        <img class="border-none" src="{{ image.mobile }}"/>
-      </div>
-      <div class="show-for-medium-up text-center">
-        <img class="border-none" src="{{ image.desktop }}"/>
+      <div class="border-none text-center">
+        <div class="show-for-small-only text-center">
+          <img class="border-none" src="{{ image.mobile }}"/>
+        </div>
+        <div class="show-for-medium-up text-center">
+          <img class="border-none" src="{{ image.desktop }}"/>
+        </div>
       </div>
     {% endif %}
   {% endfor %}
