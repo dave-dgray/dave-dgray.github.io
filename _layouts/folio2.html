@@ -1,33 +1,31 @@
 ---
-layout: basicPage
+layout: coverPage
 ---
 
 <div class="small-12 columns border-dynamic">
   {% for image in page.images %}
     {% if forloop.first %}
-      <section id="folio-overlay">
-        <div class="border-bottom-only text-center">
-          <img class="border-none" src="{{ image.desktop }}" id="folio-image"/>
-          <div class="folio-caption overlay color-white">
-            <p class="font-large v-align-middle text-center uppercase">{{ page.title }}</p>
-          </div>
-        </div>
-        <p class="font-medium color-white on-light-green">
-          {{ page.desc }}
-        </p>
-      </section>
-    {% else %}
-      <div class="border-none text-center">
-        <div class="show-for-small-only text-center">
-          <img class="border-none" src="{{ image.mobile }}"/>
-        </div>
-        <div class="show-for-medium-up text-center">
-          <img class="border-none" src="{{ image.desktop }}"/>
+      <p class="folio-caption font-xlarge color-white">
+        {{ page.title }}
+      </p>
+      <div class="border-all-sides on-light-grey">
+        <div class="border-all-sides on-light-green">
+          <p class="folio-description font-medium color-white">
+            {{ page.desc }}
+          </p>
         </div>
       </div>
     {% endif %}
+    <div class="border-none text-center on-dark-grey">
+      <div class="show-for-small-only text-center">
+        <img class="border-none" src="{{ image.mobile }}"/>
+      </div>
+      <div class="show-for-medium-up text-center">
+        <img class="border-none" src="{{ image.desktop }}"/>
+      </div>
+    </div>
   {% endfor %}
-  <div class="border-top-only text-center">
+  <div class="border-top-only text-center on-dark-grey">
     <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png"/></a>
   </div>
 </div>

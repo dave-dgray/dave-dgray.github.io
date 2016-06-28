@@ -13,11 +13,11 @@ function setSummaryElementSize() {
 };
 
 function setFolioElementSize() {
-  var blockHeight = $('#folio-image').height();
+  var blockHeight = $('#coverImage').height();
   blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.folio-caption').css('paddingBottom') );
 
-  var blockWidth = $('#folio-image').width();
+  var blockWidth = $('#coverImage').width();
   blockWidth = blockWidth - parseInt( $('.folio-caption').css('paddingLeft') );
   blockWidth = blockWidth - parseInt( $('.folio-caption').css('paddingRight') );
 
