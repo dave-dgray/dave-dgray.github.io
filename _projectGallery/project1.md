@@ -3,11 +3,12 @@ layout: folio2
 title: Design
 permalink: /project1/
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
-summary: /imgs/design/14_newsletter_cocktails_redengine_por.jpg
+cover_image: /imgs/project1/arch-devicecollection.jpg
+summary: /imgs/project1/arch-devicecollection.jpg
 images:
   - desktop: /imgs/design/1_smart_content_redengine_por.jpg
     mobile: /imgs/design/1_smart_content_redengine_thm.jpg
-    caption: 
+    caption:
   - desktop: /imgs/design/2_jewelleryschool_leaflet_racheljeffrey_por.jpg
     mobile: /imgs/design/2_jewelleryschool_leaflet_racheljeffrey_thm.jpg
     caption: 
