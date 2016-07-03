@@ -3,9 +3,12 @@ layout: folio2
 title: Design
 permalink: /project1/
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
-cover_image: /imgs/project1/arch-devicecollection.jpg
+cover_image: /imgs/home/Trees-home.jpg
 summary: /imgs/project1/arch-devicecollection.jpg
 images:
+  - desktop: /imgs/project1/arch-devicecollection.jpg
+    mobile: /imgs/project1/arch-devicecollection.jpg
+    caption:
   - desktop: /imgs/design/1_smart_content_redengine_por.jpg
     mobile: /imgs/design/1_smart_content_redengine_thm.jpg
     caption:
