@@ -2,23 +2,21 @@
 layout: default
 ---
 
-<body class="coverBackground" style="background-image: url({{ page.cover_image }});" id="coverImage">
+<div class="coverBackground" style="background-image: url({{ page.cover_image }});" id="coverImage"></div>
 
-    <div class="row full-width">
-        <nav class="top-bar" data-topbar role="navigation">
-            <div class="small-8 medium-5 columns border-all-sides">
-                <!--???-->
-            </div>
-            {% include header.html %}
-        </nav>
-    </div>
+<div class="row full-width">
+    <nav class="top-bar" data-topbar role="navigation">
+        <div class="small-8 medium-5 columns border-all-sides">
+            <!--???-->
+        </div>
+        {% include header.html %}
+    </nav>
+</div>
 
-    <div class="row full-width">
-        {{content}}
-    </div>
+<div class="row full-width">
+    {{content}}
+</div>
 
-    <div class="row full-width">
-        {% include footer.html %}
-    </div>
-
-</body>
+<div class="row full-width">
+    {% include footer.html %}
+</div>

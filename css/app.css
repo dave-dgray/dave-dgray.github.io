@@ -24,9 +24,12 @@ body {
 
 .coverBackground {
   background-size: cover;
-  background-attachment: fixed;
-  width:100%;
-  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 .full-width {
