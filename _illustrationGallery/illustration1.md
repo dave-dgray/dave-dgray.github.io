@@ -1,9 +1,9 @@
 ---
-layout: folio2
+layout: gallery
 title: Illustration
 permalink: /illustration1/
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
-summary: /imgs/illustration/party_invite_illustration_sue_jarman_por.jpg
+pickerImage: /imgs/illustration/party_invite_illustration_sue_jarman_por.jpg
 images:
   - desktop: /imgs/illustration/party_invite_illustration_sue_jarman_por.jpg
     mobile: /imgs/illustration/party_invite_sue_jarman_thm.jpg

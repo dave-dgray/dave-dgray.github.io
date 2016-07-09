@@ -1,5 +1,5 @@
 ---
-layout: basicPage
+layout: plain
 ---
 
 <div class="small-12 columns border-top-left">
@@ -8,15 +8,15 @@ layout: basicPage
   </p>
 </div>
 
-<section id="summary-overlay">
+<section id="picker-overlay">
 
   <div class="border-right-only">
 
     {% for project in site.projectGallery %}
     <div class="small-12 medium-4 columns border-bottom-left">
       <a href="{{ project.permalink }}">
-        <img src="{{ project.summary }}" id="summary-image"/>
-        <div class="summary-caption overlay color-white">
+        <img src="{{ project.pickerImage }}" id="pickerImage"/>
+        <div class="picker-caption overlay color-white">
           <p class="font-medium v-align-middle">{{project.title}}</p>
         </div>
       </a>

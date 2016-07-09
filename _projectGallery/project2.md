@@ -1,9 +1,9 @@
 ---
-layout: folio2
+layout: gallery
 title: Art Direction
 permalink: /project2/
 desc: Art direction, styling and concept development projects for fashion and photography.
-summary: /imgs/art-direction/1_breakfast_racheljeffrey_por.jpg
+pickerImage: /imgs/art-direction/1_breakfast_racheljeffrey_por.jpg
 images:
   - desktop: /imgs/art-direction/1_breakfast_racheljeffrey_por.jpg
     mobile: /imgs/art-direction/1_breakfast_racheljeffrey_thm.jpg

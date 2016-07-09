@@ -1,9 +1,9 @@
 ---
-layout: folio2
+layout: gallery
 title: Photography
 permalink: /project3/
 desc: Travel, product and food photography for advertising and promotion.
-summary: /imgs/photography/1_alpine_mountains_por.jpg
+pickerImage: /imgs/photography/1_alpine_mountains_por.jpg
 images:
   - desktop: /imgs/photography/1_alpine_mountains_por.jpg
     mobile: /imgs/photography/1_alpine_mountains_thm.jpg

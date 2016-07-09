@@ -1,16 +1,18 @@
 ---
-layout: coverPage
+layout: wallpaper
 ---
 
 <div class="small-12 columns border-dynamic">
   {% for image in page.images %}
     {% if forloop.first %}
-      <p class="folio-caption font-xlarge color-white">
-        {{ page.title }}
-      </p>
+      <div class="gallery-caption">
+        <span class="font-xlarge color-white">
+          {{ page.title }}
+        </span>
+      </div>
       <div class="border-all-sides on-light-grey">
         <div class="border-all-sides on-light-green">
-          <p class="folio-description font-medium color-white">
+          <p class="font-medium color-white">
             {{ page.desc }}
           </p>
         </div>
