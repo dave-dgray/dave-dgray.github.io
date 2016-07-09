@@ -1,19 +1,13 @@
-<div class="toggle-topbar">
-  <a href="#"><span>Menu</span></a>
-</div>
-
-<div class="top-bar-section">
-  <ul class="right">
-    <li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
-    <li><a href="{{ site.baseurl }}/projects">PROJECTS</a></li>
-    <li><a href="{{ site.baseurl }}/illustration">ILLUSTRATION</a></li>
-    <li class="has-dropdown"><a href="#">BLOG</a>
-      <ul class="dropdown">
-        {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
+<div class="fixed">
+  <div class="top-bar">
+    <div class="top-bar-section">
+      <ul class="right">
+      <li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
+      <li><a href="{{ site.baseurl }}/projects">PROJECTS</a></li>
+      <li><a href="{{ site.baseurl }}/illustration">ILLUSTRATION</a></li>
+      <li><a href="{{ site.baseurl }}/post">BLOG</a></li>
+      <li><a href="{{ site.baseurl }}/contact">CONTACT</a></li>
       </ul>
-    </li>
-    <li><a href="{{ site.baseurl }}/contact">CONTACT</a></li>
-  </ul>
+    </div>
+  </div>
 </div>

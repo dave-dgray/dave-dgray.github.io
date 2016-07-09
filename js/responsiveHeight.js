@@ -14,7 +14,7 @@ function setCoverElementSize() {
 
 function setGalleryElementSize() {
   // use window height minus the height of the header
-  var blockHeight = window.outerHeight;
+  var blockHeight = window.innerHeight;
 
   $('.gallery-caption').height(blockHeight);
   $('.gallery-caption').css('line-height', blockHeight+'px');
