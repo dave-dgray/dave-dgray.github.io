@@ -18,8 +18,12 @@
 body {
   font-family: NeusaMedium;
   color: white;
-  max-width: auto;
   background-color: rgb(8, 65, 95);
+  max-width: auto;
+}
+
+h1 {
+  color: white;
 }
 
 .wallpaper {
@@ -37,10 +41,6 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   max-width: initial;
-}
-
-.full-height {
-  min-height: 550px;
 }
 
 /* top bar - place menu on top of background */
@@ -128,17 +128,17 @@ body {
 
 .border-top-only {
   /* top right bottom left */
-  padding: 20px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 .border-bottom-only {
   /* top right bottom left */
-  padding: 0 0 20px 0;
+  padding: 0 0 50px 0;
 }
 
 .border-top-bottom {
   /* top right bottom left */
-  padding: 20px 0 20px 0;
+  padding: 50px 0 50px 0;
 }
 
 .border-top-left {
@@ -148,7 +148,7 @@ body {
 
 .border-bottom-left {
   /* top right bottom left */
-  padding: 0 0 20px 50px;
+  padding: 0 0 50px 50px;
 }
 
 .border-right-only {
@@ -177,34 +177,35 @@ body {
 */
 
 .index-style {
-  text-align: center;
   height: 150px;
   line-height: 150px;
+  text-align: center;
 }
 
 .picker-caption {
-  text-align: center;
   margin: 0;
   border: 0;
   padding: 0px;
   height: 150px;
   line-height: 150px;
   display: none;
+  text-align: center;
 }
 
-.gallery-caption {
-  text-align: center;
+.window-caption {
   margin: 0;
   border: 0;
   padding: 0px;
+  width: 100%;
   height: 150px;
   line-height: 150px;
+  display: table;
+  text-align: center;
 }
 
-.gallery-caption span {
-  display: inline-block;
+.window-caption-middle {
+  display: table-cell;
   vertical-align: middle;
-  line-height: normal;
 }
 
 .border-dynamic {
@@ -246,11 +247,11 @@ body {
 */
 
 #gallery-overlay img {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 #picker-overlay a:hover img {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 #picker-overlay a:hover .picker-caption {
@@ -264,7 +265,7 @@ body {
 */
 
 .scrollToTop {
-	height:100px;
+  height: 100px;
   display: block;
 }
 

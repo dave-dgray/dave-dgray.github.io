@@ -1,4 +1,4 @@
-function setCoverElementSize() {
+function setPickerElementSize() {
   var blockHeight = $('#pickerImage').height();
   blockHeight = blockHeight - parseInt( $('.picker-caption').css('paddingTop') );
   blockHeight = blockHeight - parseInt( $('.picker-caption').css('paddingBottom') );
@@ -12,22 +12,18 @@ function setCoverElementSize() {
   $('.picker-caption').width(blockWidth);
 };
 
-function setGalleryElementSize() {
-  // use window height minus the height of the header
+function setWindowElementSize() {
   var blockHeight = window.innerHeight;
-
-  $('.gallery-caption').height(blockHeight);
-  $('.gallery-caption').css('line-height', blockHeight+'px');
-  // $('.gallery-caption').css('span').css('line-height', blockHeight+'px');
-
+  $('.window-caption').height(blockHeight);
+  $('.window-caption').css('line-height', blockHeight+'px');
 };
 
 $(window).load(function() {
-  setCoverElementSize();
-  setGalleryElementSize();
+  setPickerElementSize();
+  setWindowElementSize();
 });
 
 $(window).resize(function() {
-  setCoverElementSize();
-  setGalleryElementSize();
+  setPickerElementSize();
+  setWindowElementSize();
 });

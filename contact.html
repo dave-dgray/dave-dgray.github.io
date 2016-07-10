@@ -25,6 +25,7 @@ menu_control: Contact
 </div>
 
 <div class="medium-8 columns show-for-medium-up">
+  <h1>{{ site.data.contact_content.name }}</h1>
   {% for image in site.data.contact_content.images %}
     <img src="{{ image.url }}">
   {% endfor %}

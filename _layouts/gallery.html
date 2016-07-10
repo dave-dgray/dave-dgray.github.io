@@ -5,10 +5,10 @@ layout: wallpaper
 <div class="small-12 columns border-dynamic">
   {% for image in page.images %}
     {% if forloop.first %}
-      <div class="gallery-caption">
-        <span class="font-xlarge color-white">
-          {{ page.title }}
-        </span>
+      <div class="window-caption color-white">
+        <div class="window-caption-middle">
+          <p class="font-xlarge">{{ page.title }}</p>
+        </div>
       </div>
       <div class="border-all-sides on-light-grey">
         <div class="border-all-sides on-light-green">
