@@ -186,6 +186,7 @@ h1 {
   margin: 0;
   border: 0;
   padding: 0px;
+  width: 100%;
   height: 150px;
   line-height: 150px;
   display: none;
@@ -246,16 +247,22 @@ h1 {
 // ========================================================================
 */
 
-#gallery-overlay img {
-  opacity: 0.3;
-}
-
 #picker-overlay a:hover img {
   opacity: 0.3;
 }
 
 #picker-overlay a:hover .picker-caption {
   display: block;
+}
+
+.picker-crop-height {
+  width: 100%;
+  overflow: hidden;
+}
+
+.picker-crop-width {
+  height: 100%;
+  overflow: hidden;
 }
 
 /*

@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: Photography
-permalink: /project3/
+permalink: /project6/
 desc: Travel, product and food photography for advertising and promotion.
 pickerImage: /imgs/photography/1_alpine_mountains_por.jpg
 backgroundImage: /imgs/photography/1_alpine_mountains_por.jpg

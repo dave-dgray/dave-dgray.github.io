@@ -8,19 +8,55 @@ layout: plain
   </p>
 </div>
 
+
+
 <section id="picker-overlay">
 
-  <div class="border-right-only">
+  <div class="border-none">
 
     {% for project in site.projectGallery %}
-    <div class="small-12 medium-4 columns border-bottom-left">
-      <a href="{{ project.permalink }}">
-        <img src="{{ project.pickerImage }}" id="pickerImage"/>
-        <div class="picker-caption overlay color-white">
-          <p class="font-medium v-align-middle">{{project.title}}</p>
-        </div>
-      </a>
+    {% assign looprow = forloop.index0 | modulo: 2 %}
+    {% assign loopindex = forloop.index0 | modulo: 6 %}
+
+    {% if looprow == 0 %}
+    <div class="row">
+    {% endif %}
+
+    {% case loopindex %}
+    {% when 0 %}
+    <div class="small-12 medium-6 columns border-none">
+      <div>
+    {% when 1 %}
+    <div class="small-12 medium-6 columns border-none">
+      <div>
+    {% when 2 %}
+    <div class="small-12 medium-8 columns border-none">
+      <div class="picker-crop-height">
+    {% when 3 %}
+    <div class="small-12 medium-4 columns border-none">
+      <div class="picker-crop-width">
+    {% when 4 %}
+    <div class="small-12 medium-4 columns border-none">
+      <div class="picker-crop-width">
+    {% when 5 %}
+    <div class="small-12 medium-8 columns border-none">
+      <div class="picker-crop-height">
+    {% endcase %}
+
+    <a href="{{ project.permalink }}">
+      <img src="{{ project.pickerImage }}" id="pickerImage"/>
+      <div class="picker-caption overlay color-white">
+        <p class="font-medium v-align-middle align-center">{{project.title}}</p>
+      </div>
+    </a>
+
     </div>
+    </div>
+
+    {% if looprow == 1 %}
+    </div>
+    {% endif %}
+
     {% endfor %}
 
   </div>
