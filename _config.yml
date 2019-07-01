@@ -1,8 +1,8 @@
 # Site settings
-title: Sue Jarman
-description: Art, Design, Illustration & Photography
-email: sue@suejarman.co.uk
-url: http://suejarman.co.uk
+title: Dave Gray
+description: Blah, Blah
+email: dave@davegray.me.uk
+url: http://davegray.me.uk
 baseurl: ''
 port: 3000
 
@@ -14,10 +14,3 @@ copyright_owner: Sue Jarman
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Collections
-collections:
-  illustrationGallery:
-    output: true
-  projectGallery:
-    output: true
